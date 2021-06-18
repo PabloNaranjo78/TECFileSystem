@@ -1,5 +1,0 @@
-/home/joel/Escritorio/Proyecto_III/TECFileSystem/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/joel/Escritorio/Proyecto_III/TECFileSystem/cmake-build-debug/CMakeFiles/Proyecto_III.dir
-/home/joel/Escritorio/Proyecto_III/TECFileSystem/cmake-build-debug/CMakeFiles/package.dir
-/home/joel/Escritorio/Proyecto_III/TECFileSystem/cmake-build-debug/CMakeFiles/package_source.dir
-/home/joel/Escritorio/Proyecto_III/TECFileSystem/cmake-build-debug/CMakeFiles/edit_cache.dir
