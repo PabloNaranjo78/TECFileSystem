@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/joel/Escritorio/Proyecto_III/TECFileSystem/Display/Display.cpp
+Display.h
+/home/joel/Escritorio/Proyecto_III/TECFileSystem/Display/Display.h
+
+/home/joel/Escritorio/Proyecto_III/TECFileSystem/Display/Display.h
+SFML/Graphics.hpp
+/home/joel/Escritorio/Proyecto_III/TECFileSystem/Display/SFML/Graphics.hpp
+
+/home/joel/Escritorio/Proyecto_III/TECFileSystem/main.cpp
+iostream
+-
+SFML/Graphics.hpp
+/home/joel/Escritorio/Proyecto_III/TECFileSystem/SFML/Graphics.hpp
+Display/Display.h
+/home/joel/Escritorio/Proyecto_III/TECFileSystem/Display/Display.h
+
