@@ -11,13 +11,16 @@
 
 using namespace std;
 class Converter {
+private:
+    string checkSize(string input);
+    string convertChar(string bin);
+    string convertInt(int num);
+
 public:
     Converter(){}
     string convertToBin(string input);
-    string convertInt(int num);
     string getString(string binInput);
-    string checkSize(string input);
-    string convertChar(string bin);
+
 
 };
 
