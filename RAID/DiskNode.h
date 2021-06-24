@@ -13,6 +13,7 @@
 #include <sys/stat.h>
 #include <sys/types.h>
 
+
 using namespace std;
 
 /**
@@ -28,6 +29,7 @@ private:
      * Crea un directorio para representar el disco
      */
     void createDirectory();
+
 public:
     File ** files = (File**)malloc(10*sizeof(File)); //Se pueden guardar hasta 10 archivos por disco (100 bytes)
     int counter;

@@ -185,3 +185,23 @@ void ControllerNode::modifyFIle(string fileName, string updatedText) {
         }
     }
 }
+
+void ControllerNode::setSocketInfo() {
+
+    XMLDocument doc;
+    XMLError errorResult = doc.LoadFile("../RAID/config.xml");
+
+    cout << "Se abre el archivo" << endl;
+
+    XMLNode* root = doc.FirstChildElement("Parameters");
+    XMLElement *ip = root->FirstChildElement("ip");
+    XMLElement *port = root->FirstChildElement("port");
+    this->ip = ip->GetText();
+    this->port = port->GetText();
+
+    cout << "-------------------------------------------" << endl;
+    cout << "IP: " << this->ip << endl;
+    cout << "Port: " << this->port << endl;
+    cout << "-------------------------------------------" << endl;
+
+}

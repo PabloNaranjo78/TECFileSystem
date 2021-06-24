@@ -12,8 +12,9 @@
 #include "Books/XOR.h"
 #include <dirent.h>
 #include <errno.h>
+#include "TinyXml/tinyxml2.h"
 
-
+using namespace tinyxml2;
 using namespace std;
 
 /**
@@ -22,6 +23,7 @@ using namespace std;
 
 class ControllerNode {
 private:
+    string ip, port;
     string initialPath;
     int counter;
     DiskNode ** disks =(DiskNode**) malloc(4*sizeof(DiskNode)); //Almacena 4 discos de 100 bytes cada uno para una capacidad total de 400 bytes (considerando paridad y metadata)
@@ -29,6 +31,10 @@ private:
      * Meotodo para iniciar las variables necesarias para los discos
      */
     void initDisks();
+    /**
+     * Setea los parametros relacionados a sockets leyendo desde XML
+     */
+    void setSocketInfo();
 public:
     /**
      * Constructor de la clase
