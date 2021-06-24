@@ -10,7 +10,9 @@ set(SFML_DIR "/home/rewieer/Libraries/SFML-2.5.1/lib/cmake/SFML")
 link_directories(SFML_LIBRARY_DIR)
 include_directories(SFML_INCLUDE_DIR)
 
-add_executable(Proyecto_III main.cpp Display/Display.cpp Display/Display.h RAID/Books/Converter.cpp RAID/Books/Converter.h RAID/Books/XOR.cpp RAID/Books/XOR.h RAID/DiskNode.cpp RAID/DiskNode.h RAID/ControllerNode.cpp RAID/ControllerNode.h RAID/File.cpp RAID/File.h RAID/TinyXml/tinyxml2.cpp RAID/TinyXml/tinyxml2.h)
+
+add_executable(Proyecto_III main.cpp Display/Display.cpp Display/Display.h Display/Button.cpp Display/Button.h Display/fileSprite.cpp Display/fileSprite.h Display/TextBox.cpp Display/TextBox.h ceRobot/ceRobot.cpp ceRobot/ceRobot.h ceSearch/ceSearch.cpp ceSearch/ceSearch.h HuffmanCode/CharacterCounter/CharacterCounter.cpp HuffmanCode/CharacterCounter/CharacterCounter.h HuffmanCode/HCBinaryTree/HCBinaryTree.cpp HuffmanCode/HCBinaryTree/HCBinaryTree.h HuffmanCode/CharacterCounter/CharacterList/CharacterList.cpp HuffmanCode/CharacterCounter/CharacterList/CharacterList.h HuffmanCode/CharacterCounter/CharacterListNode/CharacterListNode.cpp HuffmanCode/CharacterCounter/CharacterListNode/CharacterListNode.h RAID/Books/Converter.cpp RAID/Books/Converter.h RAID/Books/XOR.cpp RAID/Books/XOR.h RAID/DiskNode.cpp RAID/DiskNode.h RAID/ControllerNode.cpp RAID/ControllerNode.h RAID/File.cpp RAID/File.h RAID/TinyXml/tinyxml2.cpp RAID/TinyXml/tinyxml2.h)
+
 
 find_package(SFML 2.5.1 COMPONENTS system window graphics network audio)
 
