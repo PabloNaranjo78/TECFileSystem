@@ -38,7 +38,7 @@ string DiskNode::getFileContent(string filename) {
         if (filename == files[i]->filename){
             cout << "Archivo encontrado" << endl;
             result = files[i]->currentText;
-            cout << "string en el archivo: "<< result << endl;
+            //cout << "string en el archivo: "<< result << endl;
             break;
         }
     }
@@ -49,6 +49,8 @@ void DiskNode::updateFileContent(string fileName, string newText) {
     for (int i=0; i<4; i++){
         if (fileName == files[i]->filename){
             files[i]->updateText(newText);
+            break;
         }
     }
 }
+

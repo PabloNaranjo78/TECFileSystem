@@ -31,6 +31,21 @@ int main() {
 
     ControllerNode * controller = new ControllerNode();
     controller->createFile("S", "hola como estas");
+    string contentFile = controller->getFileContentByName("S");
+    cout << "Contenido del archivo: " << contentFile << endl;
+
+    remove("../DiskArray/Disk1");
+    controller->checkDisks();
+    contentFile = controller->getFileContentByName("S");
+    cout << "Contenido del archivo despues de borrar: " << contentFile << endl;
+
+    controller->createFile("D", "adios, me voy");
+    contentFile = controller->getFileContentByName("D");
+    cout << "Contenido del segundo archivo: " << contentFile << endl;
+
+    controller->modifyFIle("D", "Bueno, ya me fui");
+    contentFile = controller->getFileContentByName("D");
+    cout << "Contenido del segundo archivo modificado: " << contentFile << endl;
 
     return 0;
 }
