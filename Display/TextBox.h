@@ -69,8 +69,8 @@ class TextBox {
         void Delete();
 
         /**
-         *
-         * @return
+         * @brief Retorna el string contenido
+         * @return string con el contenido
          */
         string GetString();
 };

@@ -32,26 +32,6 @@ string HCBinaryTree::createTree(CharacterList inList) {
   cout<<treeListNode.getNode()->ChildrenData<<endl;
 }
 
-void HCBinaryTree::printTree() {
-  //  cout<<printTreeAux(treeListNode.getNode())<<endl;
-    //treeListNode.getNode()->rightSon = new CharacterListNode;
-  //  treeListNode.getNode()->rightSon->addData('a');
-  //cout<<printTreeAux(treeListNode.getList())<<endl;
-
-}
-
-string HCBinaryTree::printTreeAux(CharacterListNode* node) {
-    if (node!= nullptr){
-        cout<<"jjj"<<endl;
-        //cout<<""+to_string(node->getCharacter())+"("+printTreeAux(node->leftSon)+"/"+ printTreeAux(node->rightSon)+" )"<<endl;
-        //cout<<""+to_string(node->getCharacter())+"("+(node->leftSon->getCharacter())+"/"+ (node->rightSon)->getCharacter()+" )"<<endl;
-
-        return "";
-    }else{
-        return node->getCharacter();
-    }
-}
-
 string HCBinaryTree::encodeString(string stringList, string key) {
     int num = 0;
     string temp = "";

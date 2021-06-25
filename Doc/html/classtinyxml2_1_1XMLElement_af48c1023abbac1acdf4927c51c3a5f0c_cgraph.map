@@ -1,0 +1,13 @@
+<map id="tinyxml2::XMLElement::Unsigned64Text" name="tinyxml2::XMLElement::Unsigned64Text">
+<area shape="rect" id="node1" title="See QueryIntText()" alt="" coords="5,104,176,145"/>
+<area shape="rect" id="node2" href="$classtinyxml2_1_1XMLElement.html#ac2239b3bd172ad8f5b78d04d4236144b" title="See QueryIntText()" alt="" coords="224,104,397,145"/>
+<area shape="rect" id="node3" href="$classtinyxml2_1_1XMLNode.html#ae7dc225e1018cdd685f7563593a1fe08" title="Get the first child node, or null if none exists." alt="" coords="445,5,604,47"/>
+<area shape="rect" id="node4" href="$classtinyxml2_1_1XMLNode.html#a41c55dab9162d1eb62db2008430e376b" title="Safely cast to Text, or null." alt="" coords="445,71,604,112"/>
+<area shape="rect" id="node5" href="$classtinyxml2_1_1XMLUtil.html#ae1a49d5df42fbd5dbb36c2261f7e8aaf" title=" " alt="" coords="451,136,598,177"/>
+<area shape="rect" id="node7" href="$classtinyxml2_1_1XMLNode.html#a0485e51c670e741884cfd8362274d680" title=" " alt="" coords="445,201,604,243"/>
+<area shape="rect" id="node6" href="$classtinyxml2_1_1XMLUtil.html#a28c5a73c3d557ae0090191ef31d2f59a" title=" " alt="" coords="658,136,805,177"/>
+<area shape="rect" id="node8" href="$classtinyxml2_1_1StrPair.html#ad87e3d11330f5e689ba1e7e54c023b57" title=" " alt="" coords="662,201,801,243"/>
+<area shape="rect" id="node11" href="$classtinyxml2_1_1XMLNode.html#a836e2966ed736fc3c94f70e12a2a3357" title="Safely cast to a Document, or null." alt="" coords="652,267,811,308"/>
+<area shape="rect" id="node9" href="$classtinyxml2_1_1XMLUtil.html#a5a96e5144a8d693dc4bcd783d9964648" title=" " alt="" coords="859,201,1005,243"/>
+<area shape="rect" id="node10" href="$classtinyxml2_1_1XMLUtil.html#a31c00d5c5dfb38382de1dfcaf4be3595" title=" " alt="" coords="1053,201,1216,243"/>
+</map>

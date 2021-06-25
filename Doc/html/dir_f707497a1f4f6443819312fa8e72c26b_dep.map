@@ -1,0 +1,8 @@
+<map id="ServerSocket/Client" name="ServerSocket/Client">
+<area shape="rect" id="node1" href="dir_d45bbbe3ea4c77cfc7fa9f3271a2755d.html" title="Json" alt="" coords="39,148,111,196"/>
+<area shape="rect" id="node2" href="dir_f707497a1f4f6443819312fa8e72c26b.html" title="Client" alt="" coords="39,52,111,100"/>
+<area shape="rect" id="edge2-headlabel" href="dir_000017_000018.html" title="1" alt="" coords="78,122,88,137"/>
+<area shape="rect" id="node3" href="dir_51e4b9eb0ea096201cb56ff3ee83e945.html" title="HuffmanCode" alt="" coords="135,148,246,196"/>
+<area shape="rect" id="edge1-headlabel" href="dir_000017_000008.html" title="1" alt="" coords="149,123,158,137"/>
+<area shape="rect" id="clust1" href="dir_1d0d2fd0d0fc30d961a05784cd6c1c4f.html" title="ServerSocket" alt="" coords="16,16,123,207"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="CharacterListNode::addData" name="CharacterListNode::addData">
+<area shape="rect" id="node1" title="Se encarga de agregar un nuevo caracter a esta nodo." alt="" coords="5,5,156,47"/>
+<area shape="rect" id="node2" href="$classCharacterListNode.html#a2c31b0aff788dabd06c55cd2d633abbd" title="Añade +1 al contador de caracteres repetidos." alt="" coords="204,5,355,47"/>
+</map>

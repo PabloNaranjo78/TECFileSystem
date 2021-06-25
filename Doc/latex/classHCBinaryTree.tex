@@ -1,0 +1,153 @@
+\hypertarget{classHCBinaryTree}{}\doxysection{HCBinary\+Tree Class Reference}
+\label{classHCBinaryTree}\index{HCBinaryTree@{HCBinaryTree}}
+
+
+Clase encargada del manejo del Huffman\+Code.  
+
+
+
+
+{\ttfamily \#include $<$HCBinary\+Tree.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classHCBinaryTree_a4216d2e608481422540fd2c0f2e2baac}{HCBinary\+Tree}} ()
+\begin{DoxyCompactList}\small\item\em Constructor de la clase. \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{classHCBinaryTree_abd484a99b8565e52a93b26bead2f9729}{encode\+String}} (string string\+List, string key)
+\item 
+string \mbox{\hyperlink{classHCBinaryTree_a58cb9ef11f361d1e922dfa5affe9f30e}{decode\+String}} (string code, string key)
+\begin{DoxyCompactList}\small\item\em Toma el contenido ya codificado y lo retorna a su estado original. \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{classHCBinaryTree_a6069bf819c8d025a6b6e1e3669823c3e}{create\+Tree}} (\mbox{\hyperlink{classCharacterList}{Character\+List}} in\+List)
+\begin{DoxyCompactList}\small\item\em Método encargado de crear el árbol separado por paréntesis y \char`\"{}/\char`\"{}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Clase encargada del manejo del Huffman\+Code. 
+
+Definition at line 15 of file HCBinary\+Tree.\+h.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classHCBinaryTree_a4216d2e608481422540fd2c0f2e2baac}\label{classHCBinaryTree_a4216d2e608481422540fd2c0f2e2baac}} 
+\index{HCBinaryTree@{HCBinaryTree}!HCBinaryTree@{HCBinaryTree}}
+\index{HCBinaryTree@{HCBinaryTree}!HCBinaryTree@{HCBinaryTree}}
+\doxysubsubsection{\texorpdfstring{HCBinaryTree()}{HCBinaryTree()}}
+{\footnotesize\ttfamily HCBinary\+Tree\+::\+HCBinary\+Tree (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Constructor de la clase. 
+
+
+
+Definition at line 10 of file HCBinary\+Tree.\+cpp.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classHCBinaryTree_a6069bf819c8d025a6b6e1e3669823c3e}\label{classHCBinaryTree_a6069bf819c8d025a6b6e1e3669823c3e}} 
+\index{HCBinaryTree@{HCBinaryTree}!createTree@{createTree}}
+\index{createTree@{createTree}!HCBinaryTree@{HCBinaryTree}}
+\doxysubsubsection{\texorpdfstring{createTree()}{createTree()}}
+{\footnotesize\ttfamily string HCBinary\+Tree\+::create\+Tree (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classCharacterList}{Character\+List}}}]{in\+List }\end{DoxyParamCaption})}
+
+
+
+Método encargado de crear el árbol separado por paréntesis y \char`\"{}/\char`\"{}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em in\+List} & Toma por entrada una lista enlazada ordenada que contenga la frecuencia de aparición de los carateres en el string a codificar \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+retorna un string con el árbol bimario separado por parántesis y \char`\"{}/\char`\"{} 
+\end{DoxyReturn}
+
+
+Definition at line 13 of file HCBinary\+Tree.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classHCBinaryTree_a6069bf819c8d025a6b6e1e3669823c3e_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classHCBinaryTree_a6069bf819c8d025a6b6e1e3669823c3e_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classHCBinaryTree_a58cb9ef11f361d1e922dfa5affe9f30e}\label{classHCBinaryTree_a58cb9ef11f361d1e922dfa5affe9f30e}} 
+\index{HCBinaryTree@{HCBinaryTree}!decodeString@{decodeString}}
+\index{decodeString@{decodeString}!HCBinaryTree@{HCBinaryTree}}
+\doxysubsubsection{\texorpdfstring{decodeString()}{decodeString()}}
+{\footnotesize\ttfamily string HCBinary\+Tree\+::decode\+String (\begin{DoxyParamCaption}\item[{string}]{code,  }\item[{string}]{key }\end{DoxyParamCaption})}
+
+
+
+Toma el contenido ya codificado y lo retorna a su estado original. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em code} & código de string comprimido compuesto de 0 y 1 \\
+\hline
+{\em key} & clave para realizar la descompresión, este debe ser un árbol separado por parántesis y \char`\"{}/\char`\"{} \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+retorna el string decodificado a partir del código de entrada 
+\end{DoxyReturn}
+
+
+Definition at line 81 of file HCBinary\+Tree.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classHCBinaryTree_a58cb9ef11f361d1e922dfa5affe9f30e_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classHCBinaryTree_abd484a99b8565e52a93b26bead2f9729}\label{classHCBinaryTree_abd484a99b8565e52a93b26bead2f9729}} 
+\index{HCBinaryTree@{HCBinaryTree}!encodeString@{encodeString}}
+\index{encodeString@{encodeString}!HCBinaryTree@{HCBinaryTree}}
+\doxysubsubsection{\texorpdfstring{encodeString()}{encodeString()}}
+{\footnotesize\ttfamily string HCBinary\+Tree\+::encode\+String (\begin{DoxyParamCaption}\item[{string}]{string\+List,  }\item[{string}]{key }\end{DoxyParamCaption})}
+
+@bref Toma la llave y el string a encriptar, procesa el string con esta llave y la comprime. 
+\begin{DoxyParams}{Parameters}
+{\em string\+List} & string de información que se desea comprimir \\
+\hline
+{\em key} & clave para realizar la compresión, esta debe ser un árbol separado por paréntesis y \char`\"{}/\char`\"{} \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+retorna un string donde su contenido es una cadena de 0 y 1 que representa el contenido comprimido. 
+\end{DoxyReturn}
+
+
+Definition at line 35 of file HCBinary\+Tree.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classHCBinaryTree_abd484a99b8565e52a93b26bead2f9729_icgraph}
+\end{center}
+\end{figure}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Huffman\+Code/\+HCBinary\+Tree/\mbox{\hyperlink{HCBinaryTree_8h}{HCBinary\+Tree.\+h}}\item 
+Huffman\+Code/\+HCBinary\+Tree/\mbox{\hyperlink{HCBinaryTree_8cpp}{HCBinary\+Tree.\+cpp}}\end{DoxyCompactItemize}

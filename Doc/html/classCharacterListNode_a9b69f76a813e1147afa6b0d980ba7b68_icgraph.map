@@ -1,0 +1,14 @@
+<map id="CharacterListNode::getCounter" name="CharacterListNode::getCounter">
+<area shape="rect" id="node1" title="Retorna el contador de elementos que hay en este nodo." alt="" coords="1193,100,1344,141"/>
+<area shape="rect" id="node2" href="$classHCBinaryTree.html#a6069bf819c8d025a6b6e1e3669823c3e" title="Método encargado de crear el árbol separado por paréntesis y &quot;/&quot;." alt="" coords="729,82,916,109"/>
+<area shape="rect" id="node11" href="$classCharacterList.html#ad3b7279a48612785e1852d71942921b0" title="Método encargado de imprimir en consola la lista enlazada y su contenido." alt="" coords="976,133,1145,159"/>
+<area shape="rect" id="node3" href="$classServer.html#ad16a7f325cc7f7ccb64c4ddb994b9537" title="Este método toma el string de su entrada, lo codifica con Hoffman y lo envía por sockets." alt="" coords="535,81,669,107"/>
+<area shape="rect" id="node8" href="$classClient.html#a4fbbc378fa4fb8740ac95eda5dac4e25" title="Toma un string, lo envía por sockets codificado con Hoffman." alt="" coords="537,133,667,159"/>
+<area shape="rect" id="node4" href="$classControllerNode.html#ad0c08a3d7593023b0d1a3c4cacd0fe8a" title=" " alt="" coords="280,5,487,47"/>
+<area shape="rect" id="node6" href="$classControllerNode.html#a9dd149f8afcecdb908b678ef8c0190f8" title=" " alt="" coords="280,71,487,112"/>
+<area shape="rect" id="node5" href="$classControllerNode.html#ae6df5e7f4154cc81455c136c580c98d1" title=" " alt="" coords="5,13,232,39"/>
+<area shape="rect" id="node7" href="$classControllerNode.html#a30d0cc847fc2e84da84ce18d9c1f3400" title=" " alt="" coords="23,78,215,105"/>
+<area shape="rect" id="node9" href="$classDisplay.html#ae972fffea6f7ca1d627ef48c3d841bb3" title="Constructor del display, muestra la aplicación gráfica." alt="" coords="55,162,182,189"/>
+<area shape="rect" id="node10" href="$classDisplay.html#ad6102ef5c836cca3334743e1babdf432" title=" " alt="" coords="290,187,477,214"/>
+<area shape="rect" id="node12" href="$classCharacterList.html#ace02ffc730b64512f06ee5e832114831" title="Método encargado de añadir un string a la lista, esta la procesa y agrega uno a uno los caracteres." alt="" coords="717,133,928,159"/>
+</map>

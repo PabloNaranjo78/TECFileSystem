@@ -1,0 +1,5 @@
+<map id="ceRobot::ceRobot" name="ceRobot::ceRobot">
+<area shape="rect" id="node1" title="Constructor del ceRobot recibiendo la ruta de los libros." alt="" coords="5,31,141,57"/>
+<area shape="rect" id="node2" href="$classceRobot.html#aa9b498a4da7e24d920c72362c1808181" title="Retorna una lista con los nombres de los elementos." alt="" coords="189,5,324,32"/>
+<area shape="rect" id="node3" href="$classceRobot.html#a4fda2f64165e3b1790ec8285f8644ae6" title="Retorna el texto contenido en el archivo de la ruta especificada." alt="" coords="189,56,324,83"/>
+</map>

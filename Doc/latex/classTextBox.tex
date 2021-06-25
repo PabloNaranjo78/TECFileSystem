@@ -1,0 +1,256 @@
+\hypertarget{classTextBox}{}\doxysection{Text\+Box Class Reference}
+\label{classTextBox}\index{TextBox@{TextBox}}
+
+
+{\ttfamily \#include $<$Text\+Box.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classTextBox_a716abb7b45774048076f6041af1494bb}{Text\+Box}} (int Posx, int Posy, int Width, int Height, int Fsize)
+\begin{DoxyCompactList}\small\item\em Constructor de la clase textbox, recibe posicion, largo y alto, ajuste para la letra. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classTextBox_ae3cda63d315997753b07c39fa4325302}{Build}} ()
+\begin{DoxyCompactList}\small\item\em Metodo para generar el area y texto iniciales del cuadro de texto. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classTextBox_a4c9b9a3ad574cd0df13c937cba6ab766}{is\+Selected}} ()
+\begin{DoxyCompactList}\small\item\em Metodo para ver si el cuadro esta seleccionado, retorna true o false. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classTextBox_aae0061fdabeb9b85020089a092508e6b}{Write}} (char val)
+\begin{DoxyCompactList}\small\item\em Metodo para escribir lo que introduzca el usuario con el teclado. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classTextBox_add887922b6c44257d1bb18dc4494473a}{Draw}} (Render\+Window $\ast$win)
+\begin{DoxyCompactList}\small\item\em Metodo que se encarga de colocar en pantalla el cuadro y el texto. Recibe el puntero a la ventana. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classTextBox_aff2ecdcc03a4495e65290afee8f3d390}{Check\+Click}} (int x, int y)
+\begin{DoxyCompactList}\small\item\em Metodo que revisa la posicion donde se haya dado click en la ventana para activar o desactivar el cuadro de texto. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classTextBox_adc954f3f106159de9fcd5dc46a4ad351}{Delete}} ()
+\begin{DoxyCompactList}\small\item\em Metodo para eliminar la ultima letra del texto en el objeto. \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{classTextBox_ad1b2b5e3543aa581ac3124b603a317d5}{Get\+String}} ()
+\begin{DoxyCompactList}\small\item\em Retorna el string contenido. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+
+
+Definition at line 15 of file Text\+Box.\+h.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classTextBox_a716abb7b45774048076f6041af1494bb}\label{classTextBox_a716abb7b45774048076f6041af1494bb}} 
+\index{TextBox@{TextBox}!TextBox@{TextBox}}
+\index{TextBox@{TextBox}!TextBox@{TextBox}}
+\doxysubsubsection{\texorpdfstring{TextBox()}{TextBox()}}
+{\footnotesize\ttfamily Text\+Box\+::\+Text\+Box (\begin{DoxyParamCaption}\item[{int}]{Posx,  }\item[{int}]{Posy,  }\item[{int}]{Width,  }\item[{int}]{Height,  }\item[{int}]{Fsize }\end{DoxyParamCaption})}
+
+
+
+Constructor de la clase textbox, recibe posicion, largo y alto, ajuste para la letra. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Posx} & \\
+\hline
+{\em Posy} & \\
+\hline
+{\em Width} & \\
+\hline
+{\em Height} & \\
+\hline
+{\em Fsize} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 8 of file Text\+Box.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=303pt]{classTextBox_a716abb7b45774048076f6041af1494bb_cgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classTextBox_ae3cda63d315997753b07c39fa4325302}\label{classTextBox_ae3cda63d315997753b07c39fa4325302}} 
+\index{TextBox@{TextBox}!Build@{Build}}
+\index{Build@{Build}!TextBox@{TextBox}}
+\doxysubsubsection{\texorpdfstring{Build()}{Build()}}
+{\footnotesize\ttfamily void Text\+Box\+::\+Build (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Metodo para generar el area y texto iniciales del cuadro de texto. 
+
+
+
+Definition at line 21 of file Text\+Box.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=303pt]{classTextBox_ae3cda63d315997753b07c39fa4325302_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classTextBox_aff2ecdcc03a4495e65290afee8f3d390}\label{classTextBox_aff2ecdcc03a4495e65290afee8f3d390}} 
+\index{TextBox@{TextBox}!CheckClick@{CheckClick}}
+\index{CheckClick@{CheckClick}!TextBox@{TextBox}}
+\doxysubsubsection{\texorpdfstring{CheckClick()}{CheckClick()}}
+{\footnotesize\ttfamily void Text\+Box\+::\+Check\+Click (\begin{DoxyParamCaption}\item[{int}]{x,  }\item[{int}]{y }\end{DoxyParamCaption})}
+
+
+
+Metodo que revisa la posicion donde se haya dado click en la ventana para activar o desactivar el cuadro de texto. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & \\
+\hline
+{\em y} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 70 of file Text\+Box.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=327pt]{classTextBox_aff2ecdcc03a4495e65290afee8f3d390_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classTextBox_adc954f3f106159de9fcd5dc46a4ad351}\label{classTextBox_adc954f3f106159de9fcd5dc46a4ad351}} 
+\index{TextBox@{TextBox}!Delete@{Delete}}
+\index{Delete@{Delete}!TextBox@{TextBox}}
+\doxysubsubsection{\texorpdfstring{Delete()}{Delete()}}
+{\footnotesize\ttfamily void Text\+Box\+::\+Delete (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Metodo para eliminar la ultima letra del texto en el objeto. 
+
+
+
+Definition at line 87 of file Text\+Box.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=305pt]{classTextBox_adc954f3f106159de9fcd5dc46a4ad351_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classTextBox_add887922b6c44257d1bb18dc4494473a}\label{classTextBox_add887922b6c44257d1bb18dc4494473a}} 
+\index{TextBox@{TextBox}!Draw@{Draw}}
+\index{Draw@{Draw}!TextBox@{TextBox}}
+\doxysubsubsection{\texorpdfstring{Draw()}{Draw()}}
+{\footnotesize\ttfamily void Text\+Box\+::\+Draw (\begin{DoxyParamCaption}\item[{Render\+Window $\ast$}]{win }\end{DoxyParamCaption})}
+
+
+
+Metodo que se encarga de colocar en pantalla el cuadro y el texto. Recibe el puntero a la ventana. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em win} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 64 of file Text\+Box.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=298pt]{classTextBox_add887922b6c44257d1bb18dc4494473a_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classTextBox_ad1b2b5e3543aa581ac3124b603a317d5}\label{classTextBox_ad1b2b5e3543aa581ac3124b603a317d5}} 
+\index{TextBox@{TextBox}!GetString@{GetString}}
+\index{GetString@{GetString}!TextBox@{TextBox}}
+\doxysubsubsection{\texorpdfstring{GetString()}{GetString()}}
+{\footnotesize\ttfamily std\+::string Text\+Box\+::\+Get\+String (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Retorna el string contenido. 
+
+\begin{DoxyReturn}{Returns}
+string con el contenido 
+\end{DoxyReturn}
+
+
+Definition at line 96 of file Text\+Box.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=318pt]{classTextBox_ad1b2b5e3543aa581ac3124b603a317d5_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classTextBox_a4c9b9a3ad574cd0df13c937cba6ab766}\label{classTextBox_a4c9b9a3ad574cd0df13c937cba6ab766}} 
+\index{TextBox@{TextBox}!isSelected@{isSelected}}
+\index{isSelected@{isSelected}!TextBox@{TextBox}}
+\doxysubsubsection{\texorpdfstring{isSelected()}{isSelected()}}
+{\footnotesize\ttfamily bool Text\+Box\+::is\+Selected (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Metodo para ver si el cuadro esta seleccionado, retorna true o false. 
+
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+
+
+Definition at line 47 of file Text\+Box.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=323pt]{classTextBox_a4c9b9a3ad574cd0df13c937cba6ab766_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classTextBox_aae0061fdabeb9b85020089a092508e6b}\label{classTextBox_aae0061fdabeb9b85020089a092508e6b}} 
+\index{TextBox@{TextBox}!Write@{Write}}
+\index{Write@{Write}!TextBox@{TextBox}}
+\doxysubsubsection{\texorpdfstring{Write()}{Write()}}
+{\footnotesize\ttfamily void Text\+Box\+::\+Write (\begin{DoxyParamCaption}\item[{char}]{val }\end{DoxyParamCaption})}
+
+
+
+Metodo para escribir lo que introduzca el usuario con el teclado. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em val} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 52 of file Text\+Box.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=299pt]{classTextBox_aae0061fdabeb9b85020089a092508e6b_icgraph}
+\end{center}
+\end{figure}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Display/\mbox{\hyperlink{TextBox_8h}{Text\+Box.\+h}}\item 
+Display/\mbox{\hyperlink{TextBox_8cpp}{Text\+Box.\+cpp}}\end{DoxyCompactItemize}

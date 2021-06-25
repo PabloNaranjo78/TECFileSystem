@@ -1,0 +1,151 @@
+\hypertarget{classServer}{}\doxysection{Server Class Reference}
+\label{classServer}\index{Server@{Server}}
+
+
+Server\+Socket encargado del manejo de la instancia e inicio del servidor.  
+
+
+
+
+{\ttfamily \#include $<$Server.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classServer_ad5ec9462b520e59f7ea831e157ee5e59}{Server}} ()
+\begin{DoxyCompactList}\small\item\em Método constructor de la clase server. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classServer_af59bb3a96b3311ed2b87e2d6899d9f79}{start\+Server}} ()
+\begin{DoxyCompactList}\small\item\em Método encargado del inicio del servidor, este hace los llamados para abrir el socket. \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{classServer_ad16a7f325cc7f7ccb64c4ddb994b9537}{send\+Data}} (string in\+Data)
+\begin{DoxyCompactList}\small\item\em Este método toma el string de su entrada, lo codifica con Hoffman y lo envía por sockets. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Data Fields}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{classServer_a926c9dae229a62b6d33fdbb41dca6d82}{port}} = 50000
+\item 
+string \mbox{\hyperlink{classServer_a7b0080d4221baa1338757bee1e807e3d}{ip}} = \char`\"{}127.\+0.\+0.\+1\char`\"{}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Server\+Socket encargado del manejo de la instancia e inicio del servidor. 
+
+Definition at line 28 of file Server.\+h.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classServer_ad5ec9462b520e59f7ea831e157ee5e59}\label{classServer_ad5ec9462b520e59f7ea831e157ee5e59}} 
+\index{Server@{Server}!Server@{Server}}
+\index{Server@{Server}!Server@{Server}}
+\doxysubsubsection{\texorpdfstring{Server()}{Server()}}
+{\footnotesize\ttfamily Server\+::\+Server (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Método constructor de la clase server. 
+
+
+
+Definition at line 10 of file Server.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=310pt]{classServer_ad5ec9462b520e59f7ea831e157ee5e59_cgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classServer_ad16a7f325cc7f7ccb64c4ddb994b9537}\label{classServer_ad16a7f325cc7f7ccb64c4ddb994b9537}} 
+\index{Server@{Server}!sendData@{sendData}}
+\index{sendData@{sendData}!Server@{Server}}
+\doxysubsubsection{\texorpdfstring{sendData()}{sendData()}}
+{\footnotesize\ttfamily string Server\+::send\+Data (\begin{DoxyParamCaption}\item[{string}]{in\+Data }\end{DoxyParamCaption})}
+
+
+
+Este método toma el string de su entrada, lo codifica con Hoffman y lo envía por sockets. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em in\+Data} & un string con la información a enviar \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+retorna la respuesta del servidor en forma de string, este de se decodifica con Hoffman 
+\end{DoxyReturn}
+
+
+Definition at line 39 of file Server.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classServer_ad16a7f325cc7f7ccb64c4ddb994b9537_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classServer_ad16a7f325cc7f7ccb64c4ddb994b9537_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classServer_af59bb3a96b3311ed2b87e2d6899d9f79}\label{classServer_af59bb3a96b3311ed2b87e2d6899d9f79}} 
+\index{Server@{Server}!startServer@{startServer}}
+\index{startServer@{startServer}!Server@{Server}}
+\doxysubsubsection{\texorpdfstring{startServer()}{startServer()}}
+{\footnotesize\ttfamily void Server\+::start\+Server (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Método encargado del inicio del servidor, este hace los llamados para abrir el socket. 
+
+
+
+Definition at line 14 of file Server.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=310pt]{classServer_af59bb3a96b3311ed2b87e2d6899d9f79_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Field Documentation}
+\mbox{\Hypertarget{classServer_a7b0080d4221baa1338757bee1e807e3d}\label{classServer_a7b0080d4221baa1338757bee1e807e3d}} 
+\index{Server@{Server}!ip@{ip}}
+\index{ip@{ip}!Server@{Server}}
+\doxysubsubsection{\texorpdfstring{ip}{ip}}
+{\footnotesize\ttfamily string Server\+::ip = \char`\"{}127.\+0.\+0.\+1\char`\"{}}
+
+
+
+Definition at line 45 of file Server.\+h.
+
+\mbox{\Hypertarget{classServer_a926c9dae229a62b6d33fdbb41dca6d82}\label{classServer_a926c9dae229a62b6d33fdbb41dca6d82}} 
+\index{Server@{Server}!port@{port}}
+\index{port@{port}!Server@{Server}}
+\doxysubsubsection{\texorpdfstring{port}{port}}
+{\footnotesize\ttfamily int Server\+::port = 50000}
+
+
+
+Definition at line 44 of file Server.\+h.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Server\+Socket/\+Server/\mbox{\hyperlink{Server_8h}{Server.\+h}}\item 
+Server\+Socket/\+Server/\mbox{\hyperlink{Server_8cpp}{Server.\+cpp}}\end{DoxyCompactItemize}

@@ -1,0 +1,4 @@
+<map id="Button::Button" name="Button::Button">
+<area shape="rect" id="node1" title="Consiste en el constructor del boton, recibe los datos para su posicion, ancho y alto,..." alt="" coords="5,5,121,32"/>
+<area shape="rect" id="node2" href="$classButton.html#a3308ed5874c88a38b51d4e61a2a0420f" title="Metodo build que se encarga de construir las figuras y asignar los valores respectivos a cada una ape..." alt="" coords="169,5,276,32"/>
+</map>

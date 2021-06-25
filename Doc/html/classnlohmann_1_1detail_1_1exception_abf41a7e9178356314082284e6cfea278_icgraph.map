@@ -1,0 +1,52 @@
+<map id="nlohmann::detail::exception::name" name="nlohmann::detail::exception::name">
+<area shape="rect" id="node1" title=" " alt="" coords="729,1448,933,1489"/>
+<area shape="rect" id="node2" href="$classnlohmann_1_1detail_1_1parse__error.html#a137ea4d27de45d8a844fd13451d40f3d" title="create a parse error exception" alt="" coords="501,233,677,275"/>
+<area shape="rect" id="node13" href="$classnlohmann_1_1detail_1_1invalid__iterator.html#a4e849260a3caa1b288c7e619130c6c09" title=" " alt="" coords="497,743,681,784"/>
+<area shape="rect" id="node28" href="$classnlohmann_1_1detail_1_1type__error.html#aecc083aea4b698c33d042670ba50c10f" title=" " alt="" coords="505,1448,674,1489"/>
+<area shape="rect" id="node42" href="$classnlohmann_1_1detail_1_1out__of__range.html#a3f6d82a6f967c4728a1ec735a7867073" title=" " alt="" coords="509,2111,670,2152"/>
+<area shape="rect" id="node50" href="$classnlohmann_1_1detail_1_1other__error.html#a87e8ab894e8c85c0d97a0919782d3683" title=" " alt="" coords="502,2355,677,2396"/>
+<area shape="rect" id="node3" href="$classnlohmann_1_1detail_1_1parser.html#a75fb9145ea85f1ad9cc14f61981e1111" title="public parser interface" alt="" coords="251,103,433,144"/>
+<area shape="rect" id="node4" href="$classnlohmann_1_1basic__json.html#adcc786998f220a5b3083ee8a37c4553e" title="applies a JSON patch" alt="" coords="15,1899,177,1940"/>
+<area shape="rect" id="node5" href="$classnlohmann_1_1detail_1_1binary__reader.html#ab4afd9ee276bbb15a0f898061aad94dd" title=" " alt="" coords="251,168,433,209"/>
+<area shape="rect" id="node11" href="$classnlohmann_1_1detail_1_1parser.html#a073b8313a5194aac3a7d5da0d935788c" title=" " alt="" coords="251,233,433,275"/>
+<area shape="rect" id="node6" href="$classnlohmann_1_1basic__json.html#a4e02793f2691aa29ab7cb69fddafbf5c" title="Create a JSON value from an input in BSON format." alt="" coords="15,5,177,47"/>
+<area shape="rect" id="node7" href="$classnlohmann_1_1basic__json.html#a44dd5635fb2da4710f6cd6e42b72773f" title="create a JSON value from an input in CBOR format" alt="" coords="15,71,177,112"/>
+<area shape="rect" id="node8" href="$classnlohmann_1_1basic__json.html#adbcab52fca1e25b3311ef14e71a57590" title="create a JSON value from an input in MessagePack format" alt="" coords="15,136,177,177"/>
+<area shape="rect" id="node9" href="$classnlohmann_1_1basic__json.html#aa81f62db69978b90ff701f05c72e03a7" title="create a JSON value from an input in UBJSON format" alt="" coords="15,201,177,243"/>
+<area shape="rect" id="node10" href="$classnlohmann_1_1basic__json.html#a12b382c6407da5543827ce4b24bb5008" title="generate SAX events" alt="" coords="15,267,177,308"/>
+<area shape="rect" id="node12" href="$classnlohmann_1_1detail_1_1parser.html#a39784a586867c05388cb0adca0fd72b5" title="public accept interface" alt="" coords="5,332,187,373"/>
+<area shape="rect" id="node14" href="$classnlohmann_1_1basic__json.html#a23e540f473d32f1cf5d3243ea3ad495e" title="construct a JSON container given an iterator range" alt="" coords="261,481,423,523"/>
+<area shape="rect" id="node15" href="$classnlohmann_1_1basic__json.html#a494632b69bbe1d0153d3bedad0901b8e" title="remove element given an iterator" alt="" coords="261,1004,423,1045"/>
+<area shape="rect" id="node17" href="$classnlohmann_1_1basic__json.html#aeb86e8478e20d95970a8b61ff01dce3b" title="inserts element" alt="" coords="261,1135,423,1176"/>
+<area shape="rect" id="node19" href="$classnlohmann_1_1detail_1_1iter__impl.html#a15dfb2744fed2ef40c12a9e9a20d6dbc" title="return the key of an object iterator" alt="" coords="261,547,423,588"/>
+<area shape="rect" id="node20" href="$classnlohmann_1_1detail_1_1iter__impl.html#a5ca57856d9bba54a5fc51cee891de827" title="return a reference to the value pointed to by the iterator" alt="" coords="261,612,423,653"/>
+<area shape="rect" id="node21" href="$classnlohmann_1_1detail_1_1iter__impl.html#a3eef94f9d167046e7f773aeb6b78090c" title="add to iterator" alt="" coords="261,677,423,719"/>
+<area shape="rect" id="node22" href="$classnlohmann_1_1detail_1_1iter__impl.html#a49bf3e708a9c1c88c415011735962d06" title="return difference" alt="" coords="261,743,423,784"/>
+<area shape="rect" id="node23" href="$classnlohmann_1_1detail_1_1iter__impl.html#a6da3d2b34528aff328f3dcb513076dec" title="dereference the iterator" alt="" coords="261,808,423,849"/>
+<area shape="rect" id="node24" href="$classnlohmann_1_1detail_1_1iter__impl.html#a0d14cd76203e00bdcef6a64a5d055cc7" title="comparison: smaller" alt="" coords="261,873,423,915"/>
+<area shape="rect" id="node25" href="$classnlohmann_1_1detail_1_1iter__impl.html#a2b592605b63ae7f5401996ffa3b14393" title="comparison: equal" alt="" coords="261,939,423,980"/>
+<area shape="rect" id="node26" href="$classnlohmann_1_1detail_1_1iter__impl.html#ac0b9276f1102ed4b9cd3f5f56287e3ce" title="access to successor" alt="" coords="261,351,423,392"/>
+<area shape="rect" id="node27" href="$classnlohmann_1_1basic__json.html#a9f9e5f668474280acc9bd7f5410b9392" title="updates a JSON object from another object, overwriting existing keys" alt="" coords="261,416,423,457"/>
+<area shape="rect" id="node16" href="$classnlohmann_1_1basic__json.html#a844a77cb154752d12118f10af26d54cb" title="applies a JSON Merge Patch" alt="" coords="15,1037,177,1079"/>
+<area shape="rect" id="node18" href="$classnlohmann_1_1basic__json.html#a1c1f21327df91a4dd6c5f5a107240385" title="creates a diff as a JSON patch" alt="" coords="15,1168,177,1209"/>
+<area shape="rect" id="node29" href="$classnlohmann_1_1basic__json.html#a52b18a5b7e68652c65b070900c438c6e" title="access specified array element with bounds checking" alt="" coords="250,1906,434,1933"/>
+<area shape="rect" id="node30" href="$classnlohmann_1_1basic__json.html#aeac617faf3448d6d2cb33a020be01d37" title="create a container (array or object) from an initializer list" alt="" coords="261,1775,423,1816"/>
+<area shape="rect" id="node31" href="$classnlohmann_1_1basic__json.html#ac479e609cbd03948bd3e85fb441b66e5" title="add an object to an object if key does not exist" alt="" coords="261,1840,423,1881"/>
+<area shape="rect" id="node32" href="$classnlohmann_1_1basic__json.html#a15c0a5db4fb12d49433801bbe6436bfb" title="add an object to an array" alt="" coords="261,1265,423,1307"/>
+<area shape="rect" id="node33" href="$namespacenlohmann_1_1detail.html#a1f0395aad0fe853a4539288749d3a603" title=" " alt="" coords="239,1331,445,1358"/>
+<area shape="rect" id="node34" href="$namespacenlohmann_1_1detail.html#a85955b9c6dd31846e4b8e891f78614b6" title=" " alt="" coords="261,1383,423,1424"/>
+<area shape="rect" id="node35" href="$classnlohmann_1_1basic__json.html#aab19a246f6bcd27c195bed376cf5e138" title=" " alt="" coords="261,1448,423,1489"/>
+<area shape="rect" id="node36" href="$classnlohmann_1_1basic__json.html#a9ea67fc1ef0ccc42e1d5388fe0416ae5" title="access specified array element" alt="" coords="261,1069,423,1111"/>
+<area shape="rect" id="node37" href="$classnlohmann_1_1basic__json.html#ab9e0253c92736db021840105d374c4c4" title="add an object to an array" alt="" coords="261,1200,423,1241"/>
+<area shape="rect" id="node38" href="$classnlohmann_1_1basic__json.html#a76126242de262f6d38cadda19e0d13e1" title="exchanges the values" alt="" coords="261,1513,423,1555"/>
+<area shape="rect" id="node39" href="$classnlohmann_1_1basic__json.html#a377819905d567f6f523dcbc592cb6356" title="updates a JSON object from another object, overwriting existing keys" alt="" coords="261,1579,423,1620"/>
+<area shape="rect" id="node40" href="$classnlohmann_1_1basic__json.html#a11641b35219676b225d9bd15c7677659" title="access specified object element with default value" alt="" coords="261,1644,423,1685"/>
+<area shape="rect" id="node41" href="$classnlohmann_1_1detail_1_1binary__writer.html#a9ffc566db5219b473762462234b47db9" title=" " alt="" coords="251,1709,433,1751"/>
+<area shape="rect" id="node43" href="$classnlohmann_1_1json__pointer.html#a213bc67c32a30c68ac6bf06f5195d482" title="return last reference token" alt="" coords="255,1957,429,1999"/>
+<area shape="rect" id="node44" href="$classnlohmann_1_1basic__json.html#a221b943d3228488c14225e55f726cc26" title="remove element from a JSON array given an index" alt="" coords="261,2140,423,2181"/>
+<area shape="rect" id="node45" href="$classnlohmann_1_1json__pointer.html#a4b1ee4d511ca195bed896a3da47e264c" title="remove last reference token" alt="" coords="255,2023,429,2064"/>
+<area shape="rect" id="node46" href="$classnlohmann_1_1detail_1_1json__sax__dom__parser.html#a056b895d011efaf48ea096c024aca0d4" title=" " alt="" coords="235,2205,449,2247"/>
+<area shape="rect" id="node47" href="$classnlohmann_1_1detail_1_1json__sax__dom__callback__parser.html#a5255b98ba8282e3625968f91cff9d3d0" title=" " alt="" coords="243,2271,441,2327"/>
+<area shape="rect" id="node48" href="$classnlohmann_1_1detail_1_1json__sax__dom__parser.html#a9929b4cc92d471c49bd0a92802629f90" title=" " alt="" coords="255,2351,429,2407"/>
+<area shape="rect" id="node49" href="$classnlohmann_1_1detail_1_1json__sax__dom__callback__parser.html#a040e60243cc7c18a6078c6b83cdb4a81" title=" " alt="" coords="243,2431,441,2487"/>
+</map>

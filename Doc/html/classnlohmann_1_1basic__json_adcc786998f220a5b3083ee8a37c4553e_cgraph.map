@@ -1,0 +1,28 @@
+<map id="nlohmann::basic_json::patch" name="nlohmann::basic_json::patch">
+<area shape="rect" id="node1" title="applies a JSON patch" alt="" coords="5,483,168,524"/>
+<area shape="rect" id="node2" href="$classnlohmann_1_1basic__json.html#a52b18a5b7e68652c65b070900c438c6e" title="access specified array element with bounds checking" alt="" coords="216,490,400,517"/>
+<area shape="rect" id="node5" href="$namespacenlohmann.html#a6ce645a0b8717757e096a5b5773b7a16" title="user&#45;defined to_string function for JSON values" alt="" coords="943,314,1095,341"/>
+<area shape="rect" id="node6" href="$classnlohmann_1_1detail_1_1out__of__range.html#a3f6d82a6f967c4728a1ec735a7867073" title=" " alt="" coords="465,206,626,247"/>
+<area shape="rect" id="node7" href="$classnlohmann_1_1basic__json.html#ab5b70d60a636b9c5e10f6c8caac60b9e" title="return whether value is an array" alt="" coords="464,424,627,466"/>
+<area shape="rect" id="node9" href="$classnlohmann_1_1json__pointer.html#a213bc67c32a30c68ac6bf06f5195d482" title="return last reference token" alt="" coords="221,176,395,218"/>
+<area shape="rect" id="node10" href="$classnlohmann_1_1json__pointer.html#a649252bda4a2e75a0915b11a25d8bcc3" title="return whether pointer points to the root document" alt="" coords="458,111,633,152"/>
+<area shape="rect" id="node11" href="$classnlohmann_1_1basic__json.html#a23b495b4c282e4afacf382f5b49af7c7" title="returns an iterator to the first element" alt="" coords="227,359,389,400"/>
+<area shape="rect" id="node12" href="$classnlohmann_1_1detail_1_1parse__error.html#a137ea4d27de45d8a844fd13451d40f3d" title="create a parse error exception" alt="" coords="220,424,396,466"/>
+<area shape="rect" id="node13" href="$classnlohmann_1_1detail_1_1other__error.html#a87e8ab894e8c85c0d97a0919782d3683" title=" " alt="" coords="221,294,395,335"/>
+<area shape="rect" id="node14" href="$classnlohmann_1_1basic__json.html#a931267ec3f09eb67e4382f321b2c52bc" title="returns an iterator to one past the last element" alt="" coords="448,948,643,974"/>
+<area shape="rect" id="node15" href="$classnlohmann_1_1basic__json.html#a494632b69bbe1d0153d3bedad0901b8e" title="remove element given an iterator" alt="" coords="227,751,389,792"/>
+<area shape="rect" id="node19" href="$classnlohmann_1_1basic__json.html#acdf9b3aab82dcf443dd91ca5ec06b80c" title="find an element in a JSON object" alt="" coords="227,922,389,963"/>
+<area shape="rect" id="node20" href="$classnlohmann_1_1basic__json.html#a57e8411a770a6263d6d8f2116c37f3aa" title="return whether value is an object" alt="" coords="464,999,627,1040"/>
+<area shape="rect" id="node21" href="$classnlohmann_1_1basic__json.html#aeb86e8478e20d95970a8b61ff01dce3b" title="inserts element" alt="" coords="227,658,389,699"/>
+<area shape="rect" id="node23" href="$classnlohmann_1_1json__pointer.html#a4b1ee4d511ca195bed896a3da47e264c" title="remove last reference token" alt="" coords="221,111,395,152"/>
+<area shape="rect" id="node24" href="$classnlohmann_1_1basic__json.html#ab9e0253c92736db021840105d374c4c4" title="add an object to an array" alt="" coords="227,592,389,634"/>
+<area shape="rect" id="node26" href="$classnlohmann_1_1basic__json.html#a33c7c8638bb0b12e6d1b69d8106dd2e0" title="returns the number of elements" alt="" coords="227,1039,389,1080"/>
+<area shape="rect" id="node3" href="$classnlohmann_1_1detail_1_1type__error.html#aecc083aea4b698c33d042670ba50c10f" title=" " alt="" coords="461,555,630,596"/>
+<area shape="rect" id="node8" href="$classnlohmann_1_1basic__json.html#a459dbfcd47bd632ca82ca8ff8db278c8" title="return the type as string" alt="" coords="464,620,627,662"/>
+<area shape="rect" id="node4" href="$classnlohmann_1_1detail_1_1exception.html#abf41a7e9178356314082284e6cfea278" title=" " alt="" coords="691,307,895,348"/>
+<area shape="rect" id="node16" href="$classnlohmann_1_1detail_1_1invalid__iterator.html#a4e849260a3caa1b288c7e619130c6c09" title=" " alt="" coords="453,751,637,792"/>
+<area shape="rect" id="node17" href="$classnlohmann_1_1basic__json.html#a9576224f7b3ff812a308e7c1e784ea80" title="return whether value is a binary array" alt="" coords="464,816,627,858"/>
+<area shape="rect" id="node18" href="$classnlohmann_1_1basic__json.html#ab303d17366c26fca12242c7f8def1bb7" title="return whether value is a string" alt="" coords="464,882,627,923"/>
+<area shape="rect" id="node22" href="$classnlohmann_1_1basic__json.html#ab5c8034e997c5b852b92bdc6a3f70994" title=" " alt="" coords="464,686,627,727"/>
+<area shape="rect" id="node25" href="$classnlohmann_1_1basic__json.html#aedc7afad96292b5ab61a2e0ad3067f5f" title="return whether value is null" alt="" coords="464,490,627,531"/>
+</map>

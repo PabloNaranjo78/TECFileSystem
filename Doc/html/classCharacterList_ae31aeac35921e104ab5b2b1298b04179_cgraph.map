@@ -1,0 +1,4 @@
+<map id="CharacterList::deleteNode" name="CharacterList::deleteNode">
+<area shape="rect" id="node1" title="Método para eliminar un elemento específico de la lista enlazada." alt="" coords="5,13,196,39"/>
+<area shape="rect" id="node2" href="$classCharacterListNode.html#a37119544a5e2e720694bd4cf4b1bdb81" title="Se utiliza para obtener el caracter que está contenido en este nodo." alt="" coords="244,5,395,47"/>
+</map>

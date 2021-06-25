@@ -1,0 +1,8 @@
+<map id="ControllerNode::checkDisks" name="ControllerNode::checkDisks">
+<area shape="rect" id="node1" title=" " alt="" coords="5,81,208,108"/>
+<area shape="rect" id="node2" href="$classControllerNode.html#a2fb779af7b5d066f8160782367bb51bb" title=" " alt="" coords="256,56,463,83"/>
+<area shape="rect" id="node6" href="$namespacenlohmann.html#a6ce645a0b8717757e096a5b5773b7a16" title="user&#45;defined to_string function for JSON values" alt="" coords="283,107,435,133"/>
+<area shape="rect" id="node3" href="$classDiskNode.html#a50a59f777be26b917ae42530093de9d2" title=" " alt="" coords="526,5,683,32"/>
+<area shape="rect" id="node4" href="$classDiskNode.html#a7a13992a859505047f4c249652fadc59" title=" " alt="" coords="511,56,699,83"/>
+<area shape="rect" id="node5" href="$classXOR.html#a20c7c86ff3d89077ae8013beff2899cc" title=" " alt="" coords="539,107,670,133"/>
+</map>

@@ -18,10 +18,20 @@
 #include <string>
 
 using namespace std;
-
+/**
+ * @brief Clase cliente engardaga de manejar la instancia de cliente del socket
+ */
 class Client {
 public:
+    /**
+     * @brief Constructor de la clase Client, inicializa los procesos necesarios para el funcionamiento de los sockets
+     */
     Client();
+    /**
+     * @brief Toma un string, lo envía por sockets codificado con Hoffman
+     * @param outData string de información a enviar, esta de codifica y comprime utilizando Huffman
+     * @return retorna la respuesta del servidor en forma de string, a su vez, decodifica el contenido con Huffman
+     */
     string sendData(string outData);
     int port = 50000;
     string ip = "127.0.0.1";

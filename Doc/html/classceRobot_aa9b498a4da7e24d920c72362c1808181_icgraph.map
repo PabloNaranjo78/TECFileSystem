@@ -1,0 +1,4 @@
+<map id="ceRobot::getFiles" name="ceRobot::getFiles">
+<area shape="rect" id="node1" title="Retorna una lista con los nombres de los elementos." alt="" coords="189,5,324,32"/>
+<area shape="rect" id="node2" href="$classceRobot.html#af811015864ef5dd9d59f3517b2b995fd" title="Constructor del ceRobot recibiendo la ruta de los libros." alt="" coords="5,5,141,32"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="tinyxml2::XMLNode::DeepClone" name="tinyxml2::XMLNode::DeepClone">
+<area shape="rect" id="node1" title=" " alt="" coords="5,104,164,145"/>
+<area shape="rect" id="node2" href="$classtinyxml2_1_1XMLNode.html#ae7dc225e1018cdd685f7563593a1fe08" title="Get the first child node, or null if none exists." alt="" coords="212,5,371,47"/>
+<area shape="rect" id="node3" href="$classtinyxml2_1_1XMLNode.html#ae3b422e98914d6002ca99bb1d2837103" title=" " alt="" coords="212,71,371,112"/>
+<area shape="rect" id="node4" href="$classtinyxml2_1_1XMLNode.html#a79db9ef0fe014d27790f2218b87bcbb5" title="Get the next (right) sibling node of this node." alt="" coords="212,136,371,177"/>
+<area shape="rect" id="node5" href="$classtinyxml2_1_1XMLNode.html#a8402cbd3129d20e9e6024bbcc0531283" title=" " alt="" coords="212,201,371,243"/>
+</map>

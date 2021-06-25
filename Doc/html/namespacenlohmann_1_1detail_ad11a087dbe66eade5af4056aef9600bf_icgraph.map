@@ -1,0 +1,24 @@
+<map id="nlohmann::detail::input_adapter" name="nlohmann::detail::input_adapter">
+<area shape="rect" id="node1" title=" " alt="" coords="967,235,1140,276"/>
+<area shape="rect" id="node2" href="$classnlohmann_1_1basic__json.html#a32872afe5bfd040777e3e2bb85f0ca55" title="check if the input is valid JSON" alt="" coords="751,5,913,47"/>
+<area shape="rect" id="node3" href="$classnlohmann_1_1basic__json.html#a4e02793f2691aa29ab7cb69fddafbf5c" title="Create a JSON value from an input in BSON format." alt="" coords="751,71,913,112"/>
+<area shape="rect" id="node5" href="$classnlohmann_1_1basic__json.html#a44dd5635fb2da4710f6cd6e42b72773f" title="create a JSON value from an input in CBOR format" alt="" coords="751,136,913,177"/>
+<area shape="rect" id="node7" href="$classnlohmann_1_1basic__json.html#adbcab52fca1e25b3311ef14e71a57590" title="create a JSON value from an input in MessagePack format" alt="" coords="751,201,913,243"/>
+<area shape="rect" id="node9" href="$classnlohmann_1_1basic__json.html#aa81f62db69978b90ff701f05c72e03a7" title="create a JSON value from an input in UBJSON format" alt="" coords="751,267,913,308"/>
+<area shape="rect" id="node11" href="$namespacenlohmann_1_1detail.html#a8487ca95646f8368f70e279e9bf63396" title=" " alt="" coords="745,332,919,373"/>
+<area shape="rect" id="node12" href="$classnlohmann_1_1basic__json.html#a15018ade392a844ea32d5188d1a0b9c6" title="deserialize from a compatible input" alt="" coords="751,397,913,439"/>
+<area shape="rect" id="node22" href="$classnlohmann_1_1basic__json.html#a12b382c6407da5543827ce4b24bb5008" title="generate SAX events" alt="" coords="751,463,913,504"/>
+<area shape="rect" id="node4" href="$classnlohmann_1_1basic__json.html#ae2612581e4788ddffc2f45d5e4cc04fc" title=" " alt="" coords="535,71,697,112"/>
+<area shape="rect" id="node6" href="$classnlohmann_1_1basic__json.html#a188755c8cda27e2afb03c016c14125d8" title=" " alt="" coords="535,136,697,177"/>
+<area shape="rect" id="node8" href="$classnlohmann_1_1basic__json.html#a0d69d3102639759d5202a6f764760d23" title=" " alt="" coords="535,201,697,243"/>
+<area shape="rect" id="node10" href="$classnlohmann_1_1basic__json.html#ab6eeda23c34cee79d8d72f1a8691a8de" title=" " alt="" coords="535,267,697,308"/>
+<area shape="rect" id="node13" href="$classDisplay.html#ae972fffea6f7ca1d627ef48c3d841bb3" title="Constructor del display, muestra la aplicación gráfica." alt="" coords="55,527,182,554"/>
+<area shape="rect" id="node14" href="$classControllerNode.html#ad0c08a3d7593023b0d1a3c4cacd0fe8a" title=" " alt="" coords="280,332,487,373"/>
+<area shape="rect" id="node16" href="$json_8hpp.html#ae90d59ab420a183cd5fb8588bdc95e06" title="user&#45;defined string literal for JSON values" alt="" coords="555,383,677,410"/>
+<area shape="rect" id="node17" href="$classServer.html#ad16a7f325cc7f7ccb64c4ddb994b9537" title="Este método toma el string de su entrada, lo codifica con Hoffman y lo envía por sockets." alt="" coords="549,434,683,461"/>
+<area shape="rect" id="node20" href="$classClient.html#a4fbbc378fa4fb8740ac95eda5dac4e25" title="Toma un string, lo envía por sockets codificado con Hoffman." alt="" coords="551,485,681,511"/>
+<area shape="rect" id="node15" href="$classControllerNode.html#ae6df5e7f4154cc81455c136c580c98d1" title=" " alt="" coords="5,339,232,366"/>
+<area shape="rect" id="node18" href="$classControllerNode.html#a9dd149f8afcecdb908b678ef8c0190f8" title=" " alt="" coords="280,411,487,452"/>
+<area shape="rect" id="node19" href="$classControllerNode.html#a30d0cc847fc2e84da84ce18d9c1f3400" title=" " alt="" coords="23,418,215,445"/>
+<area shape="rect" id="node21" href="$classDisplay.html#ad6102ef5c836cca3334743e1babdf432" title=" " alt="" coords="290,477,477,503"/>
+</map>

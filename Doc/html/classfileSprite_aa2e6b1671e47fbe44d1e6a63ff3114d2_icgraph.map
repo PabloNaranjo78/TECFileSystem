@@ -1,0 +1,5 @@
+<map id="fileSprite::getImageSprite" name="fileSprite::getImageSprite">
+<area shape="rect" id="node1" title="Retorna el sprite de la imagen." alt="" coords="367,5,555,32"/>
+<area shape="rect" id="node2" href="$classDisplay.html#aacb0ee5a7258b5cb569f5e4d36958057" title="Crea la cantidad de archivos especificada." alt="" coords="180,5,319,32"/>
+<area shape="rect" id="node3" href="$classDisplay.html#ae972fffea6f7ca1d627ef48c3d841bb3" title="Constructor del display, muestra la aplicación gráfica." alt="" coords="5,5,132,32"/>
+</map>

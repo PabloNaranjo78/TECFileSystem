@@ -1,0 +1,24 @@
+<map id="tinyxml2::XMLNode::ParseDeep" name="tinyxml2::XMLNode::ParseDeep">
+<area shape="rect" id="node1" title=" " alt="" coords="5,468,164,509"/>
+<area shape="rect" id="node2" href="$classtinyxml2_1_1XMLElement.html#a6965ff89557f27d4082d7043d5145555" title=" " alt="" coords="218,5,389,47"/>
+<area shape="rect" id="node3" href="$classtinyxml2_1_1StrPair.html#aca963a7eaa900bfddbea7312f040b39c" title=" " alt="" coords="234,71,373,112"/>
+<area shape="rect" id="node4" href="$classtinyxml2_1_1XMLDocument.html#a34e6318e182e40e3cc4f4ba5d59ed9ed" title="Return true if there was an error parsing the document." alt="" coords="212,136,395,177"/>
+<area shape="rect" id="node5" href="$classtinyxml2_1_1XMLNode.html#ae7dc225e1018cdd685f7563593a1fe08" title="Get the first child node, or null if none exists." alt="" coords="224,201,383,243"/>
+<area shape="rect" id="node6" href="$classtinyxml2_1_1StrPair.html#ad87e3d11330f5e689ba1e7e54c023b57" title=" " alt="" coords="453,716,591,757"/>
+<area shape="rect" id="node9" href="$classtinyxml2_1_1XMLDocument.html#a25827d1bec509ad566a107e5853ed040" title=" " alt="" coords="212,267,395,308"/>
+<area shape="rect" id="node12" href="$classtinyxml2_1_1XMLUtil.html#acfcd287cacfd2533e1bc9ea4dfb56602" title=" " alt="" coords="449,329,595,371"/>
+<area shape="rect" id="node13" href="$classtinyxml2_1_1XMLNode.html#ae3b422e98914d6002ca99bb1d2837103" title=" " alt="" coords="224,435,383,476"/>
+<area shape="rect" id="node14" href="$classtinyxml2_1_1XMLNode.html#a9b8583a277e8e26f4cbbb5492786778e" title="Get the last child node, or null if none exists." alt="" coords="224,500,383,541"/>
+<area shape="rect" id="node15" href="$classtinyxml2_1_1XMLElement.html#a63e057fb5baee1dd29f323cb85907b35" title="Get the name of an element (which is the Value() of the node.)" alt="" coords="218,565,389,607"/>
+<area shape="rect" id="node16" href="$classtinyxml2_1_1MemPool.html#ac5804dd1387b2e4de5eef710076a0db1" title=" " alt="" coords="225,631,382,672"/>
+<area shape="rect" id="node17" href="$classtinyxml2_1_1XMLNode.html#a174fd4c22c010b58138c1b84a0dfbd51" title="Safely cast to a Declaration, or null." alt="" coords="224,696,383,737"/>
+<area shape="rect" id="node18" href="$classtinyxml2_1_1XMLNode.html#a836e2966ed736fc3c94f70e12a2a3357" title="Safely cast to a Document, or null." alt="" coords="443,807,601,848"/>
+<area shape="rect" id="node19" href="$classtinyxml2_1_1XMLNode.html#aab516e699567f75cc9ab2ef2eee501e8" title="Safely cast to an Element, or null." alt="" coords="224,827,383,868"/>
+<area shape="rect" id="node20" href="$classtinyxml2_1_1StrPair.html#a35f795b1557fe5fdcbd93d3cc5d6b939" title=" " alt="" coords="234,944,373,985"/>
+<area shape="rect" id="node22" href="$classtinyxml2_1_1XMLNode.html#a0485e51c670e741884cfd8362274d680" title=" " alt="" coords="224,761,383,803"/>
+<area shape="rect" id="node7" href="$classtinyxml2_1_1XMLUtil.html#a5a96e5144a8d693dc4bcd783d9964648" title=" " alt="" coords="649,716,796,757"/>
+<area shape="rect" id="node8" href="$classtinyxml2_1_1XMLUtil.html#a31c00d5c5dfb38382de1dfcaf4be3595" title=" " alt="" coords="844,716,1007,757"/>
+<area shape="rect" id="node10" href="$classtinyxml2_1_1XMLText.html#ad080357d76ab7cc59d7651249949329d" title="Declare whether this should be CDATA or standard text." alt="" coords="447,199,597,240"/>
+<area shape="rect" id="node11" href="$classtinyxml2_1_1XMLUtil.html#ab626a194b3523a5ba8b9dbaa2a165202" title=" " alt="" coords="449,264,595,305"/>
+<area shape="rect" id="node21" href="$classtinyxml2_1_1StrPair.html#a80c1b3bd99bf62ae85c94a29ce537125" title=" " alt="" coords="453,944,591,985"/>
+</map>

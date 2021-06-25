@@ -1,0 +1,96 @@
+\hypertarget{classXOR}{}\doxysection{XOR Class Reference}
+\label{classXOR}\index{XOR@{XOR}}
+
+
+{\ttfamily \#include $<$XOR.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classXOR_a324297666c4ff44eff820a72636e8e01}{XOR}} ()
+\item 
+string \mbox{\hyperlink{classXOR_ad6c44d711c3334ce06176ac740094316}{generate\+Parity}} (string info\mbox{[}3\mbox{]})
+\item 
+string \mbox{\hyperlink{classXOR_a20c7c86ff3d89077ae8013beff2899cc}{get\+Lost\+Info}} (string info\mbox{[}3\mbox{]})
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Clase para realizar la operacion de \mbox{\hyperlink{classXOR}{XOR}} para obtener paridad o informacion perdida 
+
+Definition at line 17 of file XOR.\+h.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classXOR_a324297666c4ff44eff820a72636e8e01}\label{classXOR_a324297666c4ff44eff820a72636e8e01}} 
+\index{XOR@{XOR}!XOR@{XOR}}
+\index{XOR@{XOR}!XOR@{XOR}}
+\doxysubsubsection{\texorpdfstring{XOR()}{XOR()}}
+{\footnotesize\ttfamily XOR\+::\+XOR (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Constructor de la clase 
+
+Definition at line 29 of file XOR.\+h.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classXOR_ad6c44d711c3334ce06176ac740094316}\label{classXOR_ad6c44d711c3334ce06176ac740094316}} 
+\index{XOR@{XOR}!generateParity@{generateParity}}
+\index{generateParity@{generateParity}!XOR@{XOR}}
+\doxysubsubsection{\texorpdfstring{generateParity()}{generateParity()}}
+{\footnotesize\ttfamily string XOR\+::generate\+Parity (\begin{DoxyParamCaption}\item[{string}]{info\mbox{[}3\mbox{]} }\end{DoxyParamCaption})}
+
+Genera la paridad para los tres discos 
+\begin{DoxyParams}{Parameters}
+{\em info} & un array de 3 strings del mismo tamano \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+informacion de paridad asociada a dichos strings 
+\end{DoxyReturn}
+
+
+Definition at line 33 of file XOR.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classXOR_ad6c44d711c3334ce06176ac740094316_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classXOR_a20c7c86ff3d89077ae8013beff2899cc}\label{classXOR_a20c7c86ff3d89077ae8013beff2899cc}} 
+\index{XOR@{XOR}!getLostInfo@{getLostInfo}}
+\index{getLostInfo@{getLostInfo}!XOR@{XOR}}
+\doxysubsubsection{\texorpdfstring{getLostInfo()}{getLostInfo()}}
+{\footnotesize\ttfamily string XOR\+::get\+Lost\+Info (\begin{DoxyParamCaption}\item[{string}]{info\mbox{[}3\mbox{]} }\end{DoxyParamCaption})}
+
+Regenera informacion perdida al eliminar un disco 
+\begin{DoxyParams}{Parameters}
+{\em info} & un array de 3 strings del mismo tamano \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+informacion perdida para segun los tres strings 
+\end{DoxyReturn}
+
+
+Definition at line 37 of file XOR.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classXOR_a20c7c86ff3d89077ae8013beff2899cc_icgraph}
+\end{center}
+\end{figure}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+RAID/\+Books/\mbox{\hyperlink{XOR_8h}{XOR.\+h}}\item 
+RAID/\+Books/\mbox{\hyperlink{XOR_8cpp}{XOR.\+cpp}}\end{DoxyCompactItemize}

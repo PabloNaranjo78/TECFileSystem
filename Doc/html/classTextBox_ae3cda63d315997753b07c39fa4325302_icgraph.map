@@ -1,0 +1,4 @@
+<map id="TextBox::Build" name="TextBox::Build">
+<area shape="rect" id="node1" title="Metodo para generar el area y texto iniciales del cuadro de texto." alt="" coords="188,5,303,32"/>
+<area shape="rect" id="node2" href="$classTextBox.html#a716abb7b45774048076f6041af1494bb" title="Constructor de la clase textbox, recibe posicion, largo y alto, ajuste para la letra." alt="" coords="5,5,140,32"/>
+</map>

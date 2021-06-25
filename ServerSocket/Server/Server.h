@@ -22,10 +22,24 @@
 #include "../../HuffmanCode/HCBinaryTree/HCBinaryTree.h"
 
 using namespace std;
+/**
+ * @brief ServerSocket encargado del manejo de la instancia e inicio del servidor
+ */
 class Server {
 public:
+    /**
+     * @brief Método constructor de la clase server
+     */
     Server();
+    /**
+     * @brief Método encargado del inicio del servidor, este hace los llamados para abrir el socket.
+     */
     void startServer();
+    /**
+     * @brief Este método toma el string de su entrada, lo codifica con Hoffman y lo envía por sockets
+     * @param inData un string con la información a enviar
+     * @return retorna la respuesta del servidor en forma de string, este de se decodifica con Hoffman
+     */
     string sendData(string inData);
     int port = 50000;
     string ip = "127.0.0.1";

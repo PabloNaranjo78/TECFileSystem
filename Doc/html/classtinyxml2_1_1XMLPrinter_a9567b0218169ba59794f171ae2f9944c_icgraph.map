@@ -1,0 +1,14 @@
+<map id="tinyxml2::XMLPrinter::Putc" name="tinyxml2::XMLPrinter::Putc">
+<area shape="rect" id="node1" title=" " alt="" coords="661,169,820,211"/>
+<area shape="rect" id="node2" href="$classtinyxml2_1_1XMLPrinter.html#af1fb439e5d800999646f333fa2f0699a" title="If streaming, close the Element." alt="" coords="437,39,595,80"/>
+<area shape="rect" id="node4" href="$classtinyxml2_1_1XMLPrinter.html#a9a4e2c9348b42e147629d5a99f4af3f0" title="If streaming, add an attribute to an open element." alt="" coords="437,136,595,177"/>
+<area shape="rect" id="node7" href="$classtinyxml2_1_1XMLPrinter.html#ab1efc6d1548505e9984185f58f54b713" title=" " alt="" coords="437,201,595,243"/>
+<area shape="rect" id="node9" href="$classtinyxml2_1_1XMLPrinter.html#ac6e2c72c5d796f5b4de6ce81ca95e3fa" title=" " alt="" coords="419,267,613,308"/>
+<area shape="rect" id="node3" href="$classtinyxml2_1_1XMLPrinter.html#a2edd48405971a88951c71c9df86a2f50" title="Visit an element." alt="" coords="212,5,371,47"/>
+<area shape="rect" id="node5" href="$classtinyxml2_1_1XMLPrinter.html#a69120c82088597372d28d0a98f2ee7a1" title=" " alt="" coords="212,71,371,112"/>
+<area shape="rect" id="node6" href="$classtinyxml2_1_1XMLPrinter.html#a169b2509d8eabb70811b2bb8cfd1f5d1" title="Visit an element." alt="" coords="212,136,371,177"/>
+<area shape="rect" id="node8" href="$classtinyxml2_1_1XMLPrinter.html#ab8af5455bbf9e4be2663e6642fcd7e32" title="Visit an unknown node." alt="" coords="212,201,371,243"/>
+<area shape="rect" id="node10" href="$classtinyxml2_1_1XMLPrinter.html#a1cc16a9362df4332012cb13cff6441b3" title="Add a text node." alt="" coords="212,267,371,308"/>
+<area shape="rect" id="node11" href="$classtinyxml2_1_1XMLPrinter.html#a96b0a0bfe105154a0a6c37d725258f0a" title="Add a text node from a signed 64bit integer." alt="" coords="5,233,164,275"/>
+<area shape="rect" id="node12" href="$classtinyxml2_1_1XMLPrinter.html#adc0e42b4f6fcb90a95630c79575d030b" title="Visit a text node." alt="" coords="5,299,164,340"/>
+</map>

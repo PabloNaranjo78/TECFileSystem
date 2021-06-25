@@ -1,0 +1,189 @@
+\hypertarget{classDiskNode}{}\doxysection{Disk\+Node Class Reference}
+\label{classDiskNode}\index{DiskNode@{DiskNode}}
+
+
+{\ttfamily \#include $<$Disk\+Node.\+h$>$}
+
+
+
+Collaboration diagram for Disk\+Node\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=144pt]{classDiskNode__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classDiskNode_a2c5332265a3aabb14f59fc41c828ea4a}{Disk\+Node}} (string previous\+Path, string disk\+Id)
+\item 
+void \mbox{\hyperlink{classDiskNode_a50a59f777be26b917ae42530093de9d2}{create\+File}} (string filename, string info)
+\item 
+void \mbox{\hyperlink{classDiskNode_aa394d68f5a295a25cadf446f9e361dcd}{update\+File\+Content}} (string file\+Name, string new\+Text)
+\item 
+string \mbox{\hyperlink{classDiskNode_a7a13992a859505047f4c249652fadc59}{get\+File\+Content}} (string filename)
+\end{DoxyCompactItemize}
+\doxysubsection*{Data Fields}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classFile}{File}} $\ast$$\ast$ \mbox{\hyperlink{classDiskNode_adf0eef8c1f91d28b82b15a2f8cf2a658}{files}} = (\mbox{\hyperlink{classFile}{File}}$\ast$$\ast$)malloc(10$\ast$sizeof(\mbox{\hyperlink{classFile}{File}}))
+\item 
+int \mbox{\hyperlink{classDiskNode_af8ae03f3348c3d74d8c1daf426ccddff}{counter}}
+\item 
+string \mbox{\hyperlink{classDiskNode_a41db5b018e820db60eaccd669689d3fb}{path}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Clase para las representaciones de disco, que corresponden a los nodos del controlador 
+
+Definition at line 23 of file Disk\+Node.\+h.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classDiskNode_a2c5332265a3aabb14f59fc41c828ea4a}\label{classDiskNode_a2c5332265a3aabb14f59fc41c828ea4a}} 
+\index{DiskNode@{DiskNode}!DiskNode@{DiskNode}}
+\index{DiskNode@{DiskNode}!DiskNode@{DiskNode}}
+\doxysubsubsection{\texorpdfstring{DiskNode()}{DiskNode()}}
+{\footnotesize\ttfamily Disk\+Node\+::\+Disk\+Node (\begin{DoxyParamCaption}\item[{string}]{previous\+Path,  }\item[{string}]{disk\+Id }\end{DoxyParamCaption})}
+
+Constructor de la clase 
+\begin{DoxyParams}{Parameters}
+{\em previous\+Path} & path anterior a las carpetas de disco \\
+\hline
+{\em disk\+Id} & identificador de disco \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 7 of file Disk\+Node.\+cpp.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classDiskNode_a50a59f777be26b917ae42530093de9d2}\label{classDiskNode_a50a59f777be26b917ae42530093de9d2}} 
+\index{DiskNode@{DiskNode}!createFile@{createFile}}
+\index{createFile@{createFile}!DiskNode@{DiskNode}}
+\doxysubsubsection{\texorpdfstring{createFile()}{createFile()}}
+{\footnotesize\ttfamily void Disk\+Node\+::create\+File (\begin{DoxyParamCaption}\item[{string}]{filename,  }\item[{string}]{info }\end{DoxyParamCaption})}
+
+Crea un archivo que representa una parte de un libro 
+\begin{DoxyParams}{Parameters}
+{\em filename} & nombre del archivo \\
+\hline
+{\em info} & texto que contiene \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 21 of file Disk\+Node.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classDiskNode_a50a59f777be26b917ae42530093de9d2_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classDiskNode_a7a13992a859505047f4c249652fadc59}\label{classDiskNode_a7a13992a859505047f4c249652fadc59}} 
+\index{DiskNode@{DiskNode}!getFileContent@{getFileContent}}
+\index{getFileContent@{getFileContent}!DiskNode@{DiskNode}}
+\doxysubsubsection{\texorpdfstring{getFileContent()}{getFileContent()}}
+{\footnotesize\ttfamily string Disk\+Node\+::get\+File\+Content (\begin{DoxyParamCaption}\item[{string}]{filename }\end{DoxyParamCaption})}
+
+Retorna el contenido de un archivo 
+\begin{DoxyParams}{Parameters}
+{\em filename} & nombre del archivo \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string que contiene el texto asociado 
+\end{DoxyReturn}
+
+
+Definition at line 35 of file Disk\+Node.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classDiskNode_a7a13992a859505047f4c249652fadc59_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classDiskNode_aa394d68f5a295a25cadf446f9e361dcd}\label{classDiskNode_aa394d68f5a295a25cadf446f9e361dcd}} 
+\index{DiskNode@{DiskNode}!updateFileContent@{updateFileContent}}
+\index{updateFileContent@{updateFileContent}!DiskNode@{DiskNode}}
+\doxysubsubsection{\texorpdfstring{updateFileContent()}{updateFileContent()}}
+{\footnotesize\ttfamily void Disk\+Node\+::update\+File\+Content (\begin{DoxyParamCaption}\item[{string}]{file\+Name,  }\item[{string}]{new\+Text }\end{DoxyParamCaption})}
+
+Actualiza el contenido de un archivo 
+\begin{DoxyParams}{Parameters}
+{\em file\+Name} & nombre del archivo \\
+\hline
+{\em new\+Text} & texto actualizado \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 48 of file Disk\+Node.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classDiskNode_aa394d68f5a295a25cadf446f9e361dcd_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classDiskNode_aa394d68f5a295a25cadf446f9e361dcd_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Field Documentation}
+\mbox{\Hypertarget{classDiskNode_af8ae03f3348c3d74d8c1daf426ccddff}\label{classDiskNode_af8ae03f3348c3d74d8c1daf426ccddff}} 
+\index{DiskNode@{DiskNode}!counter@{counter}}
+\index{counter@{counter}!DiskNode@{DiskNode}}
+\doxysubsubsection{\texorpdfstring{counter}{counter}}
+{\footnotesize\ttfamily int Disk\+Node\+::counter}
+
+
+
+Definition at line 35 of file Disk\+Node.\+h.
+
+\mbox{\Hypertarget{classDiskNode_adf0eef8c1f91d28b82b15a2f8cf2a658}\label{classDiskNode_adf0eef8c1f91d28b82b15a2f8cf2a658}} 
+\index{DiskNode@{DiskNode}!files@{files}}
+\index{files@{files}!DiskNode@{DiskNode}}
+\doxysubsubsection{\texorpdfstring{files}{files}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classFile}{File}}$\ast$$\ast$ Disk\+Node\+::files = (\mbox{\hyperlink{classFile}{File}}$\ast$$\ast$)malloc(10$\ast$sizeof(\mbox{\hyperlink{classFile}{File}}))}
+
+
+
+Definition at line 34 of file Disk\+Node.\+h.
+
+\mbox{\Hypertarget{classDiskNode_a41db5b018e820db60eaccd669689d3fb}\label{classDiskNode_a41db5b018e820db60eaccd669689d3fb}} 
+\index{DiskNode@{DiskNode}!path@{path}}
+\index{path@{path}!DiskNode@{DiskNode}}
+\doxysubsubsection{\texorpdfstring{path}{path}}
+{\footnotesize\ttfamily string Disk\+Node\+::path}
+
+
+
+Definition at line 36 of file Disk\+Node.\+h.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+RAID/\mbox{\hyperlink{DiskNode_8h}{Disk\+Node.\+h}}\item 
+RAID/\mbox{\hyperlink{DiskNode_8cpp}{Disk\+Node.\+cpp}}\end{DoxyCompactItemize}

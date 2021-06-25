@@ -1,0 +1,11 @@
+<map id="HCBinaryTree::createTree" name="HCBinaryTree::createTree">
+<area shape="rect" id="node1" title="Método encargado de crear el árbol separado por paréntesis y &quot;/&quot;." alt="" coords="717,107,904,134"/>
+<area shape="rect" id="node2" href="$classServer.html#ad16a7f325cc7f7ccb64c4ddb994b9537" title="Este método toma el string de su entrada, lo codifica con Hoffman y lo envía por sockets." alt="" coords="535,78,669,105"/>
+<area shape="rect" id="node7" href="$classClient.html#a4fbbc378fa4fb8740ac95eda5dac4e25" title="Toma un string, lo envía por sockets codificado con Hoffman." alt="" coords="537,137,667,163"/>
+<area shape="rect" id="node3" href="$classControllerNode.html#ad0c08a3d7593023b0d1a3c4cacd0fe8a" title=" " alt="" coords="280,5,487,47"/>
+<area shape="rect" id="node5" href="$classControllerNode.html#a9dd149f8afcecdb908b678ef8c0190f8" title=" " alt="" coords="280,71,487,112"/>
+<area shape="rect" id="node4" href="$classControllerNode.html#ae6df5e7f4154cc81455c136c580c98d1" title=" " alt="" coords="5,13,232,39"/>
+<area shape="rect" id="node6" href="$classControllerNode.html#a30d0cc847fc2e84da84ce18d9c1f3400" title=" " alt="" coords="23,78,215,105"/>
+<area shape="rect" id="node8" href="$classDisplay.html#ae972fffea6f7ca1d627ef48c3d841bb3" title="Constructor del display, muestra la aplicación gráfica." alt="" coords="55,162,182,189"/>
+<area shape="rect" id="node9" href="$classDisplay.html#ad6102ef5c836cca3334743e1babdf432" title=" " alt="" coords="290,187,477,214"/>
+</map>

@@ -1,0 +1,131 @@
+\hypertarget{classFile}{}\doxysection{File Class Reference}
+\label{classFile}\index{File@{File}}
+
+
+{\ttfamily \#include $<$File.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classFile_ae7d4b2f1ba07bbe5e252a02aa4882fa9}{File}} (string \mbox{\hyperlink{classFile_afd963fd6ba55fa762f7d3ab962e97e6c}{path}}, string \mbox{\hyperlink{classFile_a1a8a372764a0b03fb4ab172ae5faf63c}{filename}}, string \mbox{\hyperlink{classFile_a2cfb71c146324de7c462899c02158e65}{current\+Text}})
+\item 
+void \mbox{\hyperlink{classFile_a5b18744d2c04796c05fe05137c257618}{update\+Text}} (string new\+Text)
+\item 
+string \mbox{\hyperlink{classFile_a815d67caf3e00bada06922c6ca93a333}{get\+Text}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Data Fields}
+\begin{DoxyCompactItemize}
+\item 
+string \mbox{\hyperlink{classFile_afd963fd6ba55fa762f7d3ab962e97e6c}{path}}
+\item 
+string \mbox{\hyperlink{classFile_a1a8a372764a0b03fb4ab172ae5faf63c}{filename}}
+\item 
+string \mbox{\hyperlink{classFile_a2cfb71c146324de7c462899c02158e65}{current\+Text}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+
+
+Definition at line 14 of file File.\+h.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classFile_ae7d4b2f1ba07bbe5e252a02aa4882fa9}\label{classFile_ae7d4b2f1ba07bbe5e252a02aa4882fa9}} 
+\index{File@{File}!File@{File}}
+\index{File@{File}!File@{File}}
+\doxysubsubsection{\texorpdfstring{File()}{File()}}
+{\footnotesize\ttfamily File\+::\+File (\begin{DoxyParamCaption}\item[{string}]{path,  }\item[{string}]{filename,  }\item[{string}]{current\+Text }\end{DoxyParamCaption})}
+
+COnstructor de la clase 
+\begin{DoxyParams}{Parameters}
+{\em path} & path necesario para llegar al archivo desde el disco que proviene \\
+\hline
+{\em filename} & nombre del archivo \\
+\hline
+{\em current\+Text} & texto que se desea escribir \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 8 of file File.\+cpp.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classFile_a815d67caf3e00bada06922c6ca93a333}\label{classFile_a815d67caf3e00bada06922c6ca93a333}} 
+\index{File@{File}!getText@{getText}}
+\index{getText@{getText}!File@{File}}
+\doxysubsubsection{\texorpdfstring{getText()}{getText()}}
+{\footnotesize\ttfamily string File\+::get\+Text (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Retorna el texto leido en el archivo \begin{DoxyReturn}{Returns}
+texto que se contiene en el .txt 
+\end{DoxyReturn}
+
+
+Definition at line 34 of file File.\+cpp.
+
+\mbox{\Hypertarget{classFile_a5b18744d2c04796c05fe05137c257618}\label{classFile_a5b18744d2c04796c05fe05137c257618}} 
+\index{File@{File}!updateText@{updateText}}
+\index{updateText@{updateText}!File@{File}}
+\doxysubsubsection{\texorpdfstring{updateText()}{updateText()}}
+{\footnotesize\ttfamily void File\+::update\+Text (\begin{DoxyParamCaption}\item[{string}]{new\+Text }\end{DoxyParamCaption})}
+
+Actualiza el texto en un archivo 
+\begin{DoxyParams}{Parameters}
+{\em new\+Text} & nuevo texto a colocar en el archivo \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 22 of file File.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classFile_a5b18744d2c04796c05fe05137c257618_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Field Documentation}
+\mbox{\Hypertarget{classFile_a2cfb71c146324de7c462899c02158e65}\label{classFile_a2cfb71c146324de7c462899c02158e65}} 
+\index{File@{File}!currentText@{currentText}}
+\index{currentText@{currentText}!File@{File}}
+\doxysubsubsection{\texorpdfstring{currentText}{currentText}}
+{\footnotesize\ttfamily string File\+::current\+Text}
+
+
+
+Definition at line 18 of file File.\+h.
+
+\mbox{\Hypertarget{classFile_a1a8a372764a0b03fb4ab172ae5faf63c}\label{classFile_a1a8a372764a0b03fb4ab172ae5faf63c}} 
+\index{File@{File}!filename@{filename}}
+\index{filename@{filename}!File@{File}}
+\doxysubsubsection{\texorpdfstring{filename}{filename}}
+{\footnotesize\ttfamily string File\+::filename}
+
+
+
+Definition at line 17 of file File.\+h.
+
+\mbox{\Hypertarget{classFile_afd963fd6ba55fa762f7d3ab962e97e6c}\label{classFile_afd963fd6ba55fa762f7d3ab962e97e6c}} 
+\index{File@{File}!path@{path}}
+\index{path@{path}!File@{File}}
+\doxysubsubsection{\texorpdfstring{path}{path}}
+{\footnotesize\ttfamily string File\+::path}
+
+
+
+Definition at line 16 of file File.\+h.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+RAID/\mbox{\hyperlink{File_8h}{File.\+h}}\item 
+RAID/\mbox{\hyperlink{File_8cpp}{File.\+cpp}}\end{DoxyCompactItemize}

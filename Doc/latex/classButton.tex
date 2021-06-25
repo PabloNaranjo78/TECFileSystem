@@ -1,0 +1,231 @@
+\hypertarget{classButton}{}\doxysection{Button Class Reference}
+\label{classButton}\index{Button@{Button}}
+
+
+Declaracion de la clase boton, la cual define un area y un texto que cuando se da click en su posicion retorna true. Puede activarse y desactivarse.  
+
+
+
+
+{\ttfamily \#include $<$Button.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classButton_adbe4fbb2e30e3f4a1f996a887a72dc2f}{Button}} (int Posx, int Posy, int Width, int Height, int Fsize, string Text, Color Color)
+\begin{DoxyCompactList}\small\item\em Consiste en el constructor del boton, recibe los datos para su posicion, ancho y alto, ajustes de letra, texto del botón y el color del area del fondo de este. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classButton_a3308ed5874c88a38b51d4e61a2a0420f}{Build}} ()
+\begin{DoxyCompactList}\small\item\em Metodo build que se encarga de construir las figuras y asignar los valores respectivos a cada una apenas se crea el texto. Utiliza una formula para que el texto siempre se encuentre centrado en el boton. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classButton_aa8098907fb467baa6083b1a37ab32506}{Draw}} (Render\+Window $\ast$)
+\item 
+int \mbox{\hyperlink{classButton_ae30cf30db0ab5b1ef48863b470148301}{get\+Posx}} () const
+\begin{DoxyCompactList}\small\item\em Devuelve el valor de Posx. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classButton_a070d713aee183d7e8274b372843abe2e}{get\+Posy}} () const
+\begin{DoxyCompactList}\small\item\em Devuelve el valor de Posx. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classButton_a75acf94e1d23db5a64830c8ea7280c0a}{get\+Width}} () const
+\begin{DoxyCompactList}\small\item\em Devuelve el valor de Posx. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classButton_ab4e3a35e683df269eb4b178632694dbf}{get\+Height}} () const
+\begin{DoxyCompactList}\small\item\em Devuelve el valor de Posx. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Declaracion de la clase boton, la cual define un area y un texto que cuando se da click en su posicion retorna true. Puede activarse y desactivarse. 
+
+Definition at line 18 of file Button.\+h.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classButton_adbe4fbb2e30e3f4a1f996a887a72dc2f}\label{classButton_adbe4fbb2e30e3f4a1f996a887a72dc2f}} 
+\index{Button@{Button}!Button@{Button}}
+\index{Button@{Button}!Button@{Button}}
+\doxysubsubsection{\texorpdfstring{Button()}{Button()}}
+{\footnotesize\ttfamily Button\+::\+Button (\begin{DoxyParamCaption}\item[{int}]{Posx,  }\item[{int}]{Posy,  }\item[{int}]{Width,  }\item[{int}]{Height,  }\item[{int}]{Fsize,  }\item[{string}]{Text,  }\item[{Color}]{Color }\end{DoxyParamCaption})}
+
+
+
+Consiste en el constructor del boton, recibe los datos para su posicion, ancho y alto, ajustes de letra, texto del botón y el color del area del fondo de este. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Posx} & \\
+\hline
+{\em Posy} & \\
+\hline
+{\em Width} & \\
+\hline
+{\em Height} & \\
+\hline
+{\em Fsize} & \\
+\hline
+{\em Text} & \\
+\hline
+{\em Color} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 8 of file Button.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=283pt]{classButton_adbe4fbb2e30e3f4a1f996a887a72dc2f_cgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classButton_a3308ed5874c88a38b51d4e61a2a0420f}\label{classButton_a3308ed5874c88a38b51d4e61a2a0420f}} 
+\index{Button@{Button}!Build@{Build}}
+\index{Build@{Build}!Button@{Button}}
+\doxysubsubsection{\texorpdfstring{Build()}{Build()}}
+{\footnotesize\ttfamily void Button\+::\+Build (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Metodo build que se encarga de construir las figuras y asignar los valores respectivos a cada una apenas se crea el texto. Utiliza una formula para que el texto siempre se encuentre centrado en el boton. 
+
+
+
+Definition at line 23 of file Button.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=283pt]{classButton_a3308ed5874c88a38b51d4e61a2a0420f_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classButton_aa8098907fb467baa6083b1a37ab32506}\label{classButton_aa8098907fb467baa6083b1a37ab32506}} 
+\index{Button@{Button}!Draw@{Draw}}
+\index{Draw@{Draw}!Button@{Button}}
+\doxysubsubsection{\texorpdfstring{Draw()}{Draw()}}
+{\footnotesize\ttfamily void Button\+::\+Draw (\begin{DoxyParamCaption}\item[{Render\+Window $\ast$}]{win }\end{DoxyParamCaption})}
+
+Dibuja tanto el area como el texto del boton en la interfaz, recibe el puntero de la ventana de GUI. 
+\begin{DoxyParams}{Parameters}
+{\em win} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 43 of file Button.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=291pt]{classButton_aa8098907fb467baa6083b1a37ab32506_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classButton_ab4e3a35e683df269eb4b178632694dbf}\label{classButton_ab4e3a35e683df269eb4b178632694dbf}} 
+\index{Button@{Button}!getHeight@{getHeight}}
+\index{getHeight@{getHeight}!Button@{Button}}
+\doxysubsubsection{\texorpdfstring{getHeight()}{getHeight()}}
+{\footnotesize\ttfamily int Button\+::get\+Height (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Devuelve el valor de Posx. 
+
+\begin{DoxyReturn}{Returns}
+Posx 
+\end{DoxyReturn}
+
+
+Definition at line 63 of file Button.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=314pt]{classButton_ab4e3a35e683df269eb4b178632694dbf_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classButton_ae30cf30db0ab5b1ef48863b470148301}\label{classButton_ae30cf30db0ab5b1ef48863b470148301}} 
+\index{Button@{Button}!getPosx@{getPosx}}
+\index{getPosx@{getPosx}!Button@{Button}}
+\doxysubsubsection{\texorpdfstring{getPosx()}{getPosx()}}
+{\footnotesize\ttfamily int Button\+::get\+Posx (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Devuelve el valor de Posx. 
+
+\begin{DoxyReturn}{Returns}
+Posx 
+\end{DoxyReturn}
+
+
+Definition at line 51 of file Button.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=305pt]{classButton_ae30cf30db0ab5b1ef48863b470148301_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classButton_a070d713aee183d7e8274b372843abe2e}\label{classButton_a070d713aee183d7e8274b372843abe2e}} 
+\index{Button@{Button}!getPosy@{getPosy}}
+\index{getPosy@{getPosy}!Button@{Button}}
+\doxysubsubsection{\texorpdfstring{getPosy()}{getPosy()}}
+{\footnotesize\ttfamily int Button\+::get\+Posy (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Devuelve el valor de Posx. 
+
+\begin{DoxyReturn}{Returns}
+Posx 
+\end{DoxyReturn}
+
+
+Definition at line 55 of file Button.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=305pt]{classButton_a070d713aee183d7e8274b372843abe2e_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classButton_a75acf94e1d23db5a64830c8ea7280c0a}\label{classButton_a75acf94e1d23db5a64830c8ea7280c0a}} 
+\index{Button@{Button}!getWidth@{getWidth}}
+\index{getWidth@{getWidth}!Button@{Button}}
+\doxysubsubsection{\texorpdfstring{getWidth()}{getWidth()}}
+{\footnotesize\ttfamily int Button\+::get\+Width (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Devuelve el valor de Posx. 
+
+\begin{DoxyReturn}{Returns}
+Posx 
+\end{DoxyReturn}
+
+
+Definition at line 59 of file Button.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=310pt]{classButton_a75acf94e1d23db5a64830c8ea7280c0a_icgraph}
+\end{center}
+\end{figure}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Display/\mbox{\hyperlink{Button_8h}{Button.\+h}}\item 
+Display/\mbox{\hyperlink{Button_8cpp}{Button.\+cpp}}\end{DoxyCompactItemize}

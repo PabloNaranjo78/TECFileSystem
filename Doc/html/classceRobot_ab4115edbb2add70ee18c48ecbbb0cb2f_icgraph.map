@@ -1,0 +1,5 @@
+<map id="ceRobot::getContentElements" name="ceRobot::getContentElements">
+<area shape="rect" id="node1" title="Retorna la lista con el contenido de los libros." alt="" coords="415,5,631,32"/>
+<area shape="rect" id="node2" href="$classDisplay.html#ad6102ef5c836cca3334743e1babdf432" title=" " alt="" coords="180,5,367,32"/>
+<area shape="rect" id="node3" href="$classDisplay.html#ae972fffea6f7ca1d627ef48c3d841bb3" title="Constructor del display, muestra la aplicación gráfica." alt="" coords="5,5,132,32"/>
+</map>

@@ -1,0 +1,22 @@
+<map id="Server::sendData" name="Server::sendData">
+<area shape="rect" id="node1" title="Este método toma el string de su entrada, lo codifica con Hoffman y lo envía por sockets." alt="" coords="5,315,140,342"/>
+<area shape="rect" id="node2" href="$classCharacterList.html#ace02ffc730b64512f06ee5e832114831" title="Método encargado de añadir un string a la lista, esta la procesa y agrega uno a uno los caracteres." alt="" coords="188,101,399,127"/>
+<area shape="rect" id="node8" href="$classHCBinaryTree.html#a6069bf819c8d025a6b6e1e3669823c3e" title="Método encargado de crear el árbol separado por paréntesis y &quot;/&quot;." alt="" coords="453,261,640,287"/>
+<area shape="rect" id="node15" href="$classHCBinaryTree.html#a58cb9ef11f361d1e922dfa5affe9f30e" title="Toma el contenido ya codificado y lo retorna a su estado original." alt="" coords="192,286,395,313"/>
+<area shape="rect" id="node16" href="$classnlohmann_1_1basic__json.html#a476756fb08e7f2416aad116d137977f4" title="serialization" alt="" coords="212,337,375,379"/>
+<area shape="rect" id="node18" href="$classHCBinaryTree.html#abd484a99b8565e52a93b26bead2f9729" title=" " alt="" coords="192,403,395,430"/>
+<area shape="rect" id="node19" href="$classnlohmann_1_1basic__json.html#a15018ade392a844ea32d5188d1a0b9c6" title="deserialize from a compatible input" alt="" coords="212,455,375,496"/>
+<area shape="rect" id="node3" href="$classCharacterListNode.html#a2c31b0aff788dabd06c55cd2d633abbd" title="Añade +1 al contador de caracteres repetidos." alt="" coords="729,5,879,47"/>
+<area shape="rect" id="node4" href="$classCharacterListNode.html#ad3ef9b173b694c467de5479d69495926" title="Se encarga de agregar un nuevo caracter a esta nodo." alt="" coords="471,64,622,105"/>
+<area shape="rect" id="node5" href="$classCharacterList.html#ad3b7279a48612785e1852d71942921b0" title="Método encargado de imprimir en consola la lista enlazada y su contenido." alt="" coords="462,130,631,157"/>
+<area shape="rect" id="node6" href="$classCharacterListNode.html#a37119544a5e2e720694bd4cf4b1bdb81" title="Se utiliza para obtener el caracter que está contenido en este nodo." alt="" coords="729,136,879,177"/>
+<area shape="rect" id="node7" href="$classCharacterListNode.html#a9b69f76a813e1147afa6b0d980ba7b68" title="Retorna el contador de elementos que hay en este nodo." alt="" coords="729,71,879,112"/>
+<area shape="rect" id="node9" href="$classCharacterList.html#afa6ea8e36aae609641bfcbb146298b7e" title="Añade un nodo a la lista enlazada." alt="" coords="717,385,891,411"/>
+<area shape="rect" id="node10" href="$classCharacterList.html#a546821ec25fc396057c97de786511d00" title="Elimina el último elemento de la lista enlazada." alt="" coords="695,435,913,462"/>
+<area shape="rect" id="node11" href="$classCharacterList.html#ac1fd0856703e55d1a275e6412594e71b" title="Método para obtener elementos de la lista enlazada." alt="" coords="724,486,884,513"/>
+<area shape="rect" id="node12" href="$classCharacterList.html#aa23b8ba2854165f0c3ea0b4f0da24992" title="Método encargado de retornar nodo de la lista enlazada." alt="" coords="719,202,889,229"/>
+<area shape="rect" id="node13" href="$classCharacterListNode.html#ae7b790bd1af86689e08598239369fa7c" title="Funciona para cambiar el contador de elementos." alt="" coords="729,253,879,295"/>
+<area shape="rect" id="node14" href="$classCharacterListNode.html#a67b12a8d16accedf59405c0e200eeb28" title="Este método funciona para cambiar el contenido de este nodo." alt="" coords="729,319,879,360"/>
+<area shape="rect" id="node17" href="$classnlohmann_1_1detail_1_1serializer.html#a95460ebd1a535a543e5a0ec52e00f48b" title="internal implementation of the serialization function" alt="" coords="447,337,647,379"/>
+<area shape="rect" id="node20" href="$namespacenlohmann_1_1detail.html#ad11a087dbe66eade5af4056aef9600bf" title=" " alt="" coords="460,455,633,496"/>
+</map>

@@ -1,0 +1,11 @@
+<map id="tinyxml2::XMLDocument::~XMLDocument" name="tinyxml2::XMLDocument::~XMLDocument">
+<area shape="rect" id="node1" title=" " alt="" coords="5,104,188,145"/>
+<area shape="rect" id="node2" href="$classtinyxml2_1_1XMLDocument.html#a65656b0b2cbc822708eb351504178aaf" title="Clear the document, resetting it to the initial state." alt="" coords="236,104,419,145"/>
+<area shape="rect" id="node3" href="$classtinyxml2_1_1XMLDocument.html#a4085d9c52f1d93214311459d6d1fcf17" title="Clears the error flags." alt="" coords="467,5,649,47"/>
+<area shape="rect" id="node5" href="$classtinyxml2_1_1XMLNode.html#a0360085cc54df5bff85d5c5da13afdce" title=" " alt="" coords="479,71,637,112"/>
+<area shape="rect" id="node7" href="$classtinyxml2_1_1XMLDocument.html#ac1d6e2c7fcc1a660624ac4f68e96380d" title=" " alt="" coords="467,136,649,177"/>
+<area shape="rect" id="node9" href="$classtinyxml2_1_1XMLDocument.html#a34e6318e182e40e3cc4f4ba5d59ed9ed" title="Return true if there was an error parsing the document." alt="" coords="467,201,649,243"/>
+<area shape="rect" id="node4" href="$classtinyxml2_1_1StrPair.html#a80c1b3bd99bf62ae85c94a29ce537125" title=" " alt="" coords="707,5,846,47"/>
+<area shape="rect" id="node6" href="$classtinyxml2_1_1XMLNode.html#a363b6edbd6ebd55f8387d2b89f2b0921" title=" " alt="" coords="697,71,856,112"/>
+<area shape="rect" id="node8" href="$classtinyxml2_1_1MemPool.html#ac5804dd1387b2e4de5eef710076a0db1" title=" " alt="" coords="698,136,855,177"/>
+</map>

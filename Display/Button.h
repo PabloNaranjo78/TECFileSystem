@@ -56,25 +56,25 @@ class Button {
         void Draw(RenderWindow*);
 
         /**
-         * Devuelve el valor de Posx
+         * @brief Devuelve el valor de Posx
          * @return Posx
          */
         int getPosx() const;
 
         /**
-        * Devuelve el valor de Posx
+        * @brief Devuelve el valor de Posx
         * @return Posx
         */
         int getPosy() const;
 
         /**
-        * Devuelve el valor de Posx
+        * @brief Devuelve el valor de Posx
         * @return Posx
         */
         int getWidth() const;
 
         /**
-        * Devuelve el valor de Posx
+        * @brief Devuelve el valor de Posx
         * @return Posx
         */
         int getHeight() const;

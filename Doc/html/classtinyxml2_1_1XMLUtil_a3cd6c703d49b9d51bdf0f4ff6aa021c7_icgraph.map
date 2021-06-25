@@ -1,0 +1,7 @@
+<map id="tinyxml2::XMLUtil::ToStr" name="tinyxml2::XMLUtil::ToStr">
+<area shape="rect" id="node1" title=" " alt="" coords="228,104,375,145"/>
+<area shape="rect" id="node2" href="$classtinyxml2_1_1XMLPrinter.html#a69120c82088597372d28d0a98f2ee7a1" title=" " alt="" coords="13,5,172,47"/>
+<area shape="rect" id="node3" href="$classtinyxml2_1_1XMLPrinter.html#a96b0a0bfe105154a0a6c37d725258f0a" title="Add a text node from a signed 64bit integer." alt="" coords="13,71,172,112"/>
+<area shape="rect" id="node4" href="$classtinyxml2_1_1XMLAttribute.html#ad86d7d7058d76761c3a80662566a57e5" title="Set the attribute to value." alt="" coords="5,136,180,177"/>
+<area shape="rect" id="node5" href="$classtinyxml2_1_1XMLElement.html#aeae8917b5ea6060b3c08d4e3d8d632d7" title="Convenience method for setting text inside an element. See SetText() for important limitations." alt="" coords="7,201,178,243"/>
+</map>

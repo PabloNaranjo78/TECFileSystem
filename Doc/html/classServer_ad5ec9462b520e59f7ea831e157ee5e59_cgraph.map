@@ -1,0 +1,4 @@
+<map id="Server::Server" name="Server::Server">
+<area shape="rect" id="node1" title="Método constructor de la clase server." alt="" coords="5,5,120,32"/>
+<area shape="rect" id="node2" href="$classServer.html#af59bb3a96b3311ed2b87e2d6899d9f79" title="Método encargado del inicio del servidor, este hace los llamados para abrir el socket." alt="" coords="168,5,312,32"/>
+</map>

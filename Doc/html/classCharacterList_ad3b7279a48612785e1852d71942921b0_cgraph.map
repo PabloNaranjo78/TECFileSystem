@@ -1,0 +1,5 @@
+<map id="CharacterList::printList" name="CharacterList::printList">
+<area shape="rect" id="node1" title="Método encargado de imprimir en consola la lista enlazada y su contenido." alt="" coords="5,46,175,73"/>
+<area shape="rect" id="node2" href="$classCharacterListNode.html#a37119544a5e2e720694bd4cf4b1bdb81" title="Se utiliza para obtener el caracter que está contenido en este nodo." alt="" coords="223,5,373,47"/>
+<area shape="rect" id="node3" href="$classCharacterListNode.html#a9b69f76a813e1147afa6b0d980ba7b68" title="Retorna el contador de elementos que hay en este nodo." alt="" coords="223,71,373,112"/>
+</map>

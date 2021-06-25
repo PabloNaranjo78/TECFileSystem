@@ -1,0 +1,285 @@
+\hypertarget{classCharacterList}{}\doxysection{Character\+List Class Reference}
+\label{classCharacterList}\index{CharacterList@{CharacterList}}
+
+
+Clase encargada llevar registro de los caracteres y cuantas veces se repiten para el Huffman\+Code.  
+
+
+
+
+{\ttfamily \#include $<$Character\+List.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classCharacterList_a5bb368068b3b6b3c3fdb059b60a04e31}{Character\+List}} ()
+\begin{DoxyCompactList}\small\item\em Constructor de la clase \mbox{\hyperlink{classCharacterList}{Character\+List}}, encargada de llevar registro de los caracteres y cantidad de estos que componen el string a codificar. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classCharacterList_ace02ffc730b64512f06ee5e832114831}{add\+Characters}} (string new\+Characters)
+\begin{DoxyCompactList}\small\item\em Método encargado de añadir un string a la lista, esta la procesa y agrega uno a uno los caracteres. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classCharacterList_ad3b7279a48612785e1852d71942921b0}{print\+List}} ()
+\begin{DoxyCompactList}\small\item\em Método encargado de imprimir en consola la lista enlazada y su contenido. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classCharacterList_a7fcec0c665db47e781ebfdf5d221b0b1}{check\+Sort}} ()
+\item 
+void \mbox{\hyperlink{classCharacterList_abe3dfcfe30b9ae516bc988f7f8a0d626}{print\+Tree}} ()
+\begin{DoxyCompactList}\small\item\em Método encargado de la impresión del árbol en consola. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classCharacterList_ae31aeac35921e104ab5b2b1298b04179}{delete\+Node}} (string character)
+\begin{DoxyCompactList}\small\item\em Método para eliminar un elemento específico de la lista enlazada. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classCharacterList_a546821ec25fc396057c97de786511d00}{delete\+First\+Node}} ()
+\begin{DoxyCompactList}\small\item\em Elimina el último elemento de la lista enlazada. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classCharacterList_afa6ea8e36aae609641bfcbb146298b7e}{add\+Node}} (\mbox{\hyperlink{classCharacterListNode}{Character\+List\+Node}} $\ast$new\+Node)
+\begin{DoxyCompactList}\small\item\em Añade un nodo a la lista enlazada. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classCharacterListNode}{Character\+List\+Node}} $\ast$ \mbox{\hyperlink{classCharacterList_ac1fd0856703e55d1a275e6412594e71b}{get\+List}} ()
+\begin{DoxyCompactList}\small\item\em Método para obtener elementos de la lista enlazada. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classCharacterListNode}{Character\+List\+Node}} $\ast$ \mbox{\hyperlink{classCharacterList_aa23b8ba2854165f0c3ea0b4f0da24992}{get\+Node}} ()
+\begin{DoxyCompactList}\small\item\em Método encargado de retornar nodo de la lista enlazada. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Clase encargada llevar registro de los caracteres y cuantas veces se repiten para el Huffman\+Code. 
+
+Definition at line 14 of file Character\+List.\+h.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classCharacterList_a5bb368068b3b6b3c3fdb059b60a04e31}\label{classCharacterList_a5bb368068b3b6b3c3fdb059b60a04e31}} 
+\index{CharacterList@{CharacterList}!CharacterList@{CharacterList}}
+\index{CharacterList@{CharacterList}!CharacterList@{CharacterList}}
+\doxysubsubsection{\texorpdfstring{CharacterList()}{CharacterList()}}
+{\footnotesize\ttfamily Character\+List\+::\+Character\+List (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Constructor de la clase \mbox{\hyperlink{classCharacterList}{Character\+List}}, encargada de llevar registro de los caracteres y cantidad de estos que componen el string a codificar. 
+
+
+
+Definition at line 55 of file Character\+List.\+cpp.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classCharacterList_ace02ffc730b64512f06ee5e832114831}\label{classCharacterList_ace02ffc730b64512f06ee5e832114831}} 
+\index{CharacterList@{CharacterList}!addCharacters@{addCharacters}}
+\index{addCharacters@{addCharacters}!CharacterList@{CharacterList}}
+\doxysubsubsection{\texorpdfstring{addCharacters()}{addCharacters()}}
+{\footnotesize\ttfamily void Character\+List\+::add\+Characters (\begin{DoxyParamCaption}\item[{string}]{new\+Characters }\end{DoxyParamCaption})}
+
+
+
+Método encargado de añadir un string a la lista, esta la procesa y agrega uno a uno los caracteres. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em new\+Characters} & string con los datos que se desean almacenar en esta lista enlazada \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 9 of file Character\+List.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classCharacterList_ace02ffc730b64512f06ee5e832114831_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classCharacterList_ace02ffc730b64512f06ee5e832114831_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classCharacterList_afa6ea8e36aae609641bfcbb146298b7e}\label{classCharacterList_afa6ea8e36aae609641bfcbb146298b7e}} 
+\index{CharacterList@{CharacterList}!addNode@{addNode}}
+\index{addNode@{addNode}!CharacterList@{CharacterList}}
+\doxysubsubsection{\texorpdfstring{addNode()}{addNode()}}
+{\footnotesize\ttfamily void Character\+List\+::add\+Node (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classCharacterListNode}{Character\+List\+Node}} $\ast$}]{new\+Node }\end{DoxyParamCaption})}
+
+
+
+Añade un nodo a la lista enlazada. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em new\+Node} & Nodo a añadir a la lista enlazada \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 125 of file Character\+List.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classCharacterList_afa6ea8e36aae609641bfcbb146298b7e_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classCharacterList_a7fcec0c665db47e781ebfdf5d221b0b1}\label{classCharacterList_a7fcec0c665db47e781ebfdf5d221b0b1}} 
+\index{CharacterList@{CharacterList}!checkSort@{checkSort}}
+\index{checkSort@{checkSort}!CharacterList@{CharacterList}}
+\doxysubsubsection{\texorpdfstring{checkSort()}{checkSort()}}
+{\footnotesize\ttfamily bool Character\+List\+::check\+Sort (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Método encargado de revisar que la lista esté ordenada \begin{DoxyReturn}{Returns}
+retorna true si está ordenada, false en caso contrario. 
+\end{DoxyReturn}
+
+
+Definition at line 92 of file Character\+List.\+cpp.
+
+\mbox{\Hypertarget{classCharacterList_a546821ec25fc396057c97de786511d00}\label{classCharacterList_a546821ec25fc396057c97de786511d00}} 
+\index{CharacterList@{CharacterList}!deleteFirstNode@{deleteFirstNode}}
+\index{deleteFirstNode@{deleteFirstNode}!CharacterList@{CharacterList}}
+\doxysubsubsection{\texorpdfstring{deleteFirstNode()}{deleteFirstNode()}}
+{\footnotesize\ttfamily void Character\+List\+::delete\+First\+Node (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Elimina el último elemento de la lista enlazada. 
+
+
+
+Definition at line 137 of file Character\+List.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classCharacterList_a546821ec25fc396057c97de786511d00_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classCharacterList_ae31aeac35921e104ab5b2b1298b04179}\label{classCharacterList_ae31aeac35921e104ab5b2b1298b04179}} 
+\index{CharacterList@{CharacterList}!deleteNode@{deleteNode}}
+\index{deleteNode@{deleteNode}!CharacterList@{CharacterList}}
+\doxysubsubsection{\texorpdfstring{deleteNode()}{deleteNode()}}
+{\footnotesize\ttfamily void Character\+List\+::delete\+Node (\begin{DoxyParamCaption}\item[{string}]{character }\end{DoxyParamCaption})}
+
+
+
+Método para eliminar un elemento específico de la lista enlazada. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em character} & que se desea eliminar de la lista \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 109 of file Character\+List.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classCharacterList_ae31aeac35921e104ab5b2b1298b04179_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classCharacterList_ac1fd0856703e55d1a275e6412594e71b}\label{classCharacterList_ac1fd0856703e55d1a275e6412594e71b}} 
+\index{CharacterList@{CharacterList}!getList@{getList}}
+\index{getList@{getList}!CharacterList@{CharacterList}}
+\doxysubsubsection{\texorpdfstring{getList()}{getList()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classCharacterListNode}{Character\+List\+Node}} $\ast$ Character\+List\+::get\+List (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Método para obtener elementos de la lista enlazada. 
+
+\begin{DoxyReturn}{Returns}
+primer nodo de la lista enlazada 
+\end{DoxyReturn}
+
+
+Definition at line 105 of file Character\+List.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classCharacterList_ac1fd0856703e55d1a275e6412594e71b_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classCharacterList_aa23b8ba2854165f0c3ea0b4f0da24992}\label{classCharacterList_aa23b8ba2854165f0c3ea0b4f0da24992}} 
+\index{CharacterList@{CharacterList}!getNode@{getNode}}
+\index{getNode@{getNode}!CharacterList@{CharacterList}}
+\doxysubsubsection{\texorpdfstring{getNode()}{getNode()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classCharacterListNode}{Character\+List\+Node}} $\ast$ Character\+List\+::get\+Node (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Método encargado de retornar nodo de la lista enlazada. 
+
+\begin{DoxyReturn}{Returns}
+retorna el nodo que se tiene en este momento de primero. 
+\end{DoxyReturn}
+
+
+Definition at line 133 of file Character\+List.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classCharacterList_aa23b8ba2854165f0c3ea0b4f0da24992_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classCharacterList_ad3b7279a48612785e1852d71942921b0}\label{classCharacterList_ad3b7279a48612785e1852d71942921b0}} 
+\index{CharacterList@{CharacterList}!printList@{printList}}
+\index{printList@{printList}!CharacterList@{CharacterList}}
+\doxysubsubsection{\texorpdfstring{printList()}{printList()}}
+{\footnotesize\ttfamily void Character\+List\+::print\+List (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Método encargado de imprimir en consola la lista enlazada y su contenido. 
+
+
+
+Definition at line 59 of file Character\+List.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classCharacterList_ad3b7279a48612785e1852d71942921b0_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classCharacterList_ad3b7279a48612785e1852d71942921b0_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classCharacterList_abe3dfcfe30b9ae516bc988f7f8a0d626}\label{classCharacterList_abe3dfcfe30b9ae516bc988f7f8a0d626}} 
+\index{CharacterList@{CharacterList}!printTree@{printTree}}
+\index{printTree@{printTree}!CharacterList@{CharacterList}}
+\doxysubsubsection{\texorpdfstring{printTree()}{printTree()}}
+{\footnotesize\ttfamily void Character\+List\+::print\+Tree (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Método encargado de la impresión del árbol en consola. 
+
+
+
+Definition at line 141 of file Character\+List.\+cpp.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Huffman\+Code/\+Character\+Counter/\+Character\+List/\mbox{\hyperlink{CharacterList_8h}{Character\+List.\+h}}\item 
+Huffman\+Code/\+Character\+Counter/\+Character\+List/\mbox{\hyperlink{CharacterList_8cpp}{Character\+List.\+cpp}}\end{DoxyCompactItemize}

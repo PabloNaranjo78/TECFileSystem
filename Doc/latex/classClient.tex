@@ -1,0 +1,119 @@
+\hypertarget{classClient}{}\doxysection{Client Class Reference}
+\label{classClient}\index{Client@{Client}}
+
+
+Clase cliente engardaga de manejar la instancia de cliente del socket.  
+
+
+
+
+{\ttfamily \#include $<$Client.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classClient_ae51af7aa6b8f591496a8f6a4a87a14bf}{Client}} ()
+\begin{DoxyCompactList}\small\item\em Constructor de la clase \mbox{\hyperlink{classClient}{Client}}, inicializa los procesos necesarios para el funcionamiento de los sockets. \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{classClient_a4fbbc378fa4fb8740ac95eda5dac4e25}{send\+Data}} (string out\+Data)
+\begin{DoxyCompactList}\small\item\em Toma un string, lo envía por sockets codificado con Hoffman. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Data Fields}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{classClient_aad8864d1362eae7c50e53c0d131b7442}{port}} = 50000
+\item 
+string \mbox{\hyperlink{classClient_a5eaf1ed83e42eec32c685efc35c93e24}{ip}} = \char`\"{}127.\+0.\+0.\+1\char`\"{}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Clase cliente engardaga de manejar la instancia de cliente del socket. 
+
+Definition at line 24 of file Client.\+h.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classClient_ae51af7aa6b8f591496a8f6a4a87a14bf}\label{classClient_ae51af7aa6b8f591496a8f6a4a87a14bf}} 
+\index{Client@{Client}!Client@{Client}}
+\index{Client@{Client}!Client@{Client}}
+\doxysubsubsection{\texorpdfstring{Client()}{Client()}}
+{\footnotesize\ttfamily Client\+::\+Client (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Constructor de la clase \mbox{\hyperlink{classClient}{Client}}, inicializa los procesos necesarios para el funcionamiento de los sockets. 
+
+
+
+Definition at line 13 of file Client.\+cpp.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classClient_a4fbbc378fa4fb8740ac95eda5dac4e25}\label{classClient_a4fbbc378fa4fb8740ac95eda5dac4e25}} 
+\index{Client@{Client}!sendData@{sendData}}
+\index{sendData@{sendData}!Client@{Client}}
+\doxysubsubsection{\texorpdfstring{sendData()}{sendData()}}
+{\footnotesize\ttfamily string Client\+::send\+Data (\begin{DoxyParamCaption}\item[{string}]{out\+Data }\end{DoxyParamCaption})}
+
+
+
+Toma un string, lo envía por sockets codificado con Hoffman. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em out\+Data} & string de información a enviar, esta de codifica y comprime utilizando Huffman \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+retorna la respuesta del servidor en forma de string, a su vez, decodifica el contenido con Huffman 
+\end{DoxyReturn}
+
+
+Definition at line 24 of file Client.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classClient_a4fbbc378fa4fb8740ac95eda5dac4e25_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classClient_a4fbbc378fa4fb8740ac95eda5dac4e25_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Field Documentation}
+\mbox{\Hypertarget{classClient_a5eaf1ed83e42eec32c685efc35c93e24}\label{classClient_a5eaf1ed83e42eec32c685efc35c93e24}} 
+\index{Client@{Client}!ip@{ip}}
+\index{ip@{ip}!Client@{Client}}
+\doxysubsubsection{\texorpdfstring{ip}{ip}}
+{\footnotesize\ttfamily string Client\+::ip = \char`\"{}127.\+0.\+0.\+1\char`\"{}}
+
+
+
+Definition at line 37 of file Client.\+h.
+
+\mbox{\Hypertarget{classClient_aad8864d1362eae7c50e53c0d131b7442}\label{classClient_aad8864d1362eae7c50e53c0d131b7442}} 
+\index{Client@{Client}!port@{port}}
+\index{port@{port}!Client@{Client}}
+\doxysubsubsection{\texorpdfstring{port}{port}}
+{\footnotesize\ttfamily int Client\+::port = 50000}
+
+
+
+Definition at line 36 of file Client.\+h.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Server\+Socket/\+Client/\mbox{\hyperlink{Client_8h}{Client.\+h}}\item 
+Server\+Socket/\+Client/\mbox{\hyperlink{Client_8cpp}{Client.\+cpp}}\end{DoxyCompactItemize}

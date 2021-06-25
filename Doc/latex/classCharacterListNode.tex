@@ -1,0 +1,317 @@
+\hypertarget{classCharacterListNode}{}\doxysection{Character\+List\+Node Class Reference}
+\label{classCharacterListNode}\index{CharacterListNode@{CharacterListNode}}
+
+
+Nodos para la lista enlazada del Huffman\+Code, este contiene el caracter y su frecuencia.  
+
+
+
+
+{\ttfamily \#include $<$Character\+List\+Node.\+h$>$}
+
+
+
+Collaboration diagram for Character\+List\+Node\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=253pt]{classCharacterListNode__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classCharacterListNode_aa8a68cec811720648667e77a3335e479}{Character\+List\+Node}} ()
+\begin{DoxyCompactList}\small\item\em Constructor de la clase \mbox{\hyperlink{classCharacterListNode}{Character\+List\+Node}}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classCharacterListNode_ad3ef9b173b694c467de5479d69495926}{add\+Data}} (string character)
+\begin{DoxyCompactList}\small\item\em Se encarga de agregar un nuevo caracter a esta nodo. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classCharacterListNode_a67b12a8d16accedf59405c0e200eeb28}{set\+Data}} (string character)
+\begin{DoxyCompactList}\small\item\em Este método funciona para cambiar el contenido de este nodo. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classCharacterListNode_a2c31b0aff788dabd06c55cd2d633abbd}{add\+Counter}} ()
+\begin{DoxyCompactList}\small\item\em Añade +1 al contador de caracteres repetidos. \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{classCharacterListNode_a37119544a5e2e720694bd4cf4b1bdb81}{get\+Character}} ()
+\begin{DoxyCompactList}\small\item\em Se utiliza para obtener el caracter que está contenido en este nodo. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classCharacterListNode_a9b69f76a813e1147afa6b0d980ba7b68}{get\+Counter}} ()
+\begin{DoxyCompactList}\small\item\em Retorna el contador de elementos que hay en este nodo. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classCharacterListNode_ae7b790bd1af86689e08598239369fa7c}{set\+Counter}} (int counter)
+\begin{DoxyCompactList}\small\item\em Funciona para cambiar el contador de elementos. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classCharacterListNode_ab338beeb1370a5879d71062fa6f0ea8f}{set\+Children}} (\mbox{\hyperlink{classCharacterListNode}{Character\+List\+Node}} $\ast$r\+Node, \mbox{\hyperlink{classCharacterListNode}{Character\+List\+Node}} $\ast$l\+Node)
+\end{DoxyCompactItemize}
+\doxysubsection*{Data Fields}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classCharacterListNode}{Character\+List\+Node}} $\ast$ \mbox{\hyperlink{classCharacterListNode_a2a9c114abf20d30ede7f1826955bc86d}{next\+Node}} = nullptr
+\item 
+\mbox{\hyperlink{classCharacterListNode}{Character\+List\+Node}} $\ast$ \mbox{\hyperlink{classCharacterListNode_ae905c9e517a438361eeaf878a13730f1}{prev\+Node}} = nullptr
+\item 
+\mbox{\hyperlink{classCharacterListNode}{Character\+List\+Node}} $\ast$ \mbox{\hyperlink{classCharacterListNode_a7473c1ec753c766164b49f1c3b97cc6d}{left\+Son}} = nullptr
+\item 
+\mbox{\hyperlink{classCharacterListNode}{Character\+List\+Node}} $\ast$ \mbox{\hyperlink{classCharacterListNode_a01bb344921758be66d1a651a169eb74f}{right\+Son}} = nullptr
+\item 
+string \mbox{\hyperlink{classCharacterListNode_a4bc5c36de5bcdd357d292efd6baad895}{Children\+Data}} = \char`\"{}\#\char`\"{}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Nodos para la lista enlazada del Huffman\+Code, este contiene el caracter y su frecuencia. 
+
+Definition at line 12 of file Character\+List\+Node.\+h.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classCharacterListNode_aa8a68cec811720648667e77a3335e479}\label{classCharacterListNode_aa8a68cec811720648667e77a3335e479}} 
+\index{CharacterListNode@{CharacterListNode}!CharacterListNode@{CharacterListNode}}
+\index{CharacterListNode@{CharacterListNode}!CharacterListNode@{CharacterListNode}}
+\doxysubsubsection{\texorpdfstring{CharacterListNode()}{CharacterListNode()}}
+{\footnotesize\ttfamily Character\+List\+Node\+::\+Character\+List\+Node (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Constructor de la clase \mbox{\hyperlink{classCharacterListNode}{Character\+List\+Node}}. 
+
+
+
+Definition at line 7 of file Character\+List\+Node.\+cpp.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classCharacterListNode_a2c31b0aff788dabd06c55cd2d633abbd}\label{classCharacterListNode_a2c31b0aff788dabd06c55cd2d633abbd}} 
+\index{CharacterListNode@{CharacterListNode}!addCounter@{addCounter}}
+\index{addCounter@{addCounter}!CharacterListNode@{CharacterListNode}}
+\doxysubsubsection{\texorpdfstring{addCounter()}{addCounter()}}
+{\footnotesize\ttfamily void Character\+List\+Node\+::add\+Counter (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Añade +1 al contador de caracteres repetidos. 
+
+
+
+Definition at line 16 of file Character\+List\+Node.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classCharacterListNode_a2c31b0aff788dabd06c55cd2d633abbd_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classCharacterListNode_ad3ef9b173b694c467de5479d69495926}\label{classCharacterListNode_ad3ef9b173b694c467de5479d69495926}} 
+\index{CharacterListNode@{CharacterListNode}!addData@{addData}}
+\index{addData@{addData}!CharacterListNode@{CharacterListNode}}
+\doxysubsubsection{\texorpdfstring{addData()}{addData()}}
+{\footnotesize\ttfamily void Character\+List\+Node\+::add\+Data (\begin{DoxyParamCaption}\item[{string}]{character }\end{DoxyParamCaption})}
+
+
+
+Se encarga de agregar un nuevo caracter a esta nodo. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em character} & string con el caracter a agregar \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 11 of file Character\+List\+Node.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=342pt]{classCharacterListNode_ad3ef9b173b694c467de5479d69495926_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classCharacterListNode_ad3ef9b173b694c467de5479d69495926_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classCharacterListNode_a37119544a5e2e720694bd4cf4b1bdb81}\label{classCharacterListNode_a37119544a5e2e720694bd4cf4b1bdb81}} 
+\index{CharacterListNode@{CharacterListNode}!getCharacter@{getCharacter}}
+\index{getCharacter@{getCharacter}!CharacterListNode@{CharacterListNode}}
+\doxysubsubsection{\texorpdfstring{getCharacter()}{getCharacter()}}
+{\footnotesize\ttfamily string Character\+List\+Node\+::get\+Character (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Se utiliza para obtener el caracter que está contenido en este nodo. 
+
+\begin{DoxyReturn}{Returns}
+retorna un string con el caracter guardado 
+\end{DoxyReturn}
+
+
+Definition at line 20 of file Character\+List\+Node.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classCharacterListNode_a37119544a5e2e720694bd4cf4b1bdb81_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classCharacterListNode_a9b69f76a813e1147afa6b0d980ba7b68}\label{classCharacterListNode_a9b69f76a813e1147afa6b0d980ba7b68}} 
+\index{CharacterListNode@{CharacterListNode}!getCounter@{getCounter}}
+\index{getCounter@{getCounter}!CharacterListNode@{CharacterListNode}}
+\doxysubsubsection{\texorpdfstring{getCounter()}{getCounter()}}
+{\footnotesize\ttfamily int Character\+List\+Node\+::get\+Counter (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Retorna el contador de elementos que hay en este nodo. 
+
+\begin{DoxyReturn}{Returns}
+un entero con la cantidad de elementos 
+\end{DoxyReturn}
+
+
+Definition at line 24 of file Character\+List\+Node.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classCharacterListNode_a9b69f76a813e1147afa6b0d980ba7b68_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classCharacterListNode_ab338beeb1370a5879d71062fa6f0ea8f}\label{classCharacterListNode_ab338beeb1370a5879d71062fa6f0ea8f}} 
+\index{CharacterListNode@{CharacterListNode}!setChildren@{setChildren}}
+\index{setChildren@{setChildren}!CharacterListNode@{CharacterListNode}}
+\doxysubsubsection{\texorpdfstring{setChildren()}{setChildren()}}
+{\footnotesize\ttfamily void Character\+List\+Node\+::set\+Children (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classCharacterListNode}{Character\+List\+Node}} $\ast$}]{r\+Node,  }\item[{\mbox{\hyperlink{classCharacterListNode}{Character\+List\+Node}} $\ast$}]{l\+Node }\end{DoxyParamCaption})}
+
+Método para asignar los hijos a los nodos 
+\begin{DoxyParams}{Parameters}
+{\em r\+Node} & Hijo derecho \\
+\hline
+{\em l\+Node} & Hijo izquierdo \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 38 of file Character\+List\+Node.\+cpp.
+
+\mbox{\Hypertarget{classCharacterListNode_ae7b790bd1af86689e08598239369fa7c}\label{classCharacterListNode_ae7b790bd1af86689e08598239369fa7c}} 
+\index{CharacterListNode@{CharacterListNode}!setCounter@{setCounter}}
+\index{setCounter@{setCounter}!CharacterListNode@{CharacterListNode}}
+\doxysubsubsection{\texorpdfstring{setCounter()}{setCounter()}}
+{\footnotesize\ttfamily void Character\+List\+Node\+::set\+Counter (\begin{DoxyParamCaption}\item[{int}]{counter }\end{DoxyParamCaption})}
+
+
+
+Funciona para cambiar el contador de elementos. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em counter} & entero con el cual se desea cambiar el contador del nodo \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 28 of file Character\+List\+Node.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classCharacterListNode_ae7b790bd1af86689e08598239369fa7c_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classCharacterListNode_a67b12a8d16accedf59405c0e200eeb28}\label{classCharacterListNode_a67b12a8d16accedf59405c0e200eeb28}} 
+\index{CharacterListNode@{CharacterListNode}!setData@{setData}}
+\index{setData@{setData}!CharacterListNode@{CharacterListNode}}
+\doxysubsubsection{\texorpdfstring{setData()}{setData()}}
+{\footnotesize\ttfamily void Character\+List\+Node\+::set\+Data (\begin{DoxyParamCaption}\item[{string}]{character }\end{DoxyParamCaption})}
+
+
+
+Este método funciona para cambiar el contenido de este nodo. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em character} & caracter con el cual se desea remplazar el existente. \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 32 of file Character\+List\+Node.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classCharacterListNode_a67b12a8d16accedf59405c0e200eeb28_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Field Documentation}
+\mbox{\Hypertarget{classCharacterListNode_a4bc5c36de5bcdd357d292efd6baad895}\label{classCharacterListNode_a4bc5c36de5bcdd357d292efd6baad895}} 
+\index{CharacterListNode@{CharacterListNode}!ChildrenData@{ChildrenData}}
+\index{ChildrenData@{ChildrenData}!CharacterListNode@{CharacterListNode}}
+\doxysubsubsection{\texorpdfstring{ChildrenData}{ChildrenData}}
+{\footnotesize\ttfamily string Character\+List\+Node\+::\+Children\+Data = \char`\"{}\#\char`\"{}}
+
+
+
+Definition at line 59 of file Character\+List\+Node.\+h.
+
+\mbox{\Hypertarget{classCharacterListNode_a7473c1ec753c766164b49f1c3b97cc6d}\label{classCharacterListNode_a7473c1ec753c766164b49f1c3b97cc6d}} 
+\index{CharacterListNode@{CharacterListNode}!leftSon@{leftSon}}
+\index{leftSon@{leftSon}!CharacterListNode@{CharacterListNode}}
+\doxysubsubsection{\texorpdfstring{leftSon}{leftSon}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classCharacterListNode}{Character\+List\+Node}}$\ast$ Character\+List\+Node\+::left\+Son = nullptr}
+
+
+
+Definition at line 56 of file Character\+List\+Node.\+h.
+
+\mbox{\Hypertarget{classCharacterListNode_a2a9c114abf20d30ede7f1826955bc86d}\label{classCharacterListNode_a2a9c114abf20d30ede7f1826955bc86d}} 
+\index{CharacterListNode@{CharacterListNode}!nextNode@{nextNode}}
+\index{nextNode@{nextNode}!CharacterListNode@{CharacterListNode}}
+\doxysubsubsection{\texorpdfstring{nextNode}{nextNode}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classCharacterListNode}{Character\+List\+Node}}$\ast$ Character\+List\+Node\+::next\+Node = nullptr}
+
+
+
+Definition at line 53 of file Character\+List\+Node.\+h.
+
+\mbox{\Hypertarget{classCharacterListNode_ae905c9e517a438361eeaf878a13730f1}\label{classCharacterListNode_ae905c9e517a438361eeaf878a13730f1}} 
+\index{CharacterListNode@{CharacterListNode}!prevNode@{prevNode}}
+\index{prevNode@{prevNode}!CharacterListNode@{CharacterListNode}}
+\doxysubsubsection{\texorpdfstring{prevNode}{prevNode}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classCharacterListNode}{Character\+List\+Node}}$\ast$ Character\+List\+Node\+::prev\+Node = nullptr}
+
+
+
+Definition at line 54 of file Character\+List\+Node.\+h.
+
+\mbox{\Hypertarget{classCharacterListNode_a01bb344921758be66d1a651a169eb74f}\label{classCharacterListNode_a01bb344921758be66d1a651a169eb74f}} 
+\index{CharacterListNode@{CharacterListNode}!rightSon@{rightSon}}
+\index{rightSon@{rightSon}!CharacterListNode@{CharacterListNode}}
+\doxysubsubsection{\texorpdfstring{rightSon}{rightSon}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classCharacterListNode}{Character\+List\+Node}}$\ast$ Character\+List\+Node\+::right\+Son = nullptr}
+
+
+
+Definition at line 57 of file Character\+List\+Node.\+h.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Huffman\+Code/\+Character\+Counter/\+Character\+List\+Node/\mbox{\hyperlink{CharacterListNode_8h}{Character\+List\+Node.\+h}}\item 
+Huffman\+Code/\+Character\+Counter/\+Character\+List\+Node/\mbox{\hyperlink{CharacterListNode_8cpp}{Character\+List\+Node.\+cpp}}\end{DoxyCompactItemize}

@@ -1,0 +1,4 @@
+<map id="Button::getPosx" name="Button::getPosx">
+<area shape="rect" id="node1" title="Devuelve el valor de Posx." alt="" coords="180,5,305,32"/>
+<area shape="rect" id="node2" href="$classDisplay.html#ae972fffea6f7ca1d627ef48c3d841bb3" title="Constructor del display, muestra la aplicación gráfica." alt="" coords="5,5,132,32"/>
+</map>

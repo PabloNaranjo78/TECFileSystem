@@ -1,0 +1,342 @@
+\hypertarget{classControllerNode}{}\doxysection{Controller\+Node Class Reference}
+\label{classControllerNode}\index{ControllerNode@{ControllerNode}}
+
+
+{\ttfamily \#include $<$Controller\+Node.\+h$>$}
+
+
+
+Collaboration diagram for Controller\+Node\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=170pt]{classControllerNode__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classControllerNode_ae6df5e7f4154cc81455c136c580c98d1}{Controller\+Node}} ()
+\item 
+bool \mbox{\hyperlink{classControllerNode_a29576b92385fe5dac869e4c46b96924b}{check\+Disks}} ()
+\item 
+void \mbox{\hyperlink{classControllerNode_a2fb779af7b5d066f8160782367bb51bb}{recover\+Disk}} (int disk\+Num)
+\item 
+void \mbox{\hyperlink{classControllerNode_a98456de3dc0fa892c5e9d6d6f8938477}{create\+File}} (string file\+Name, string text)
+\item 
+void \mbox{\hyperlink{classControllerNode_a1637ad34ef1fa2d6fe70ee8cedec0b30}{modify\+FIle}} (string file\+Name, string updated\+Text)
+\item 
+string \mbox{\hyperlink{classControllerNode_a21564ebe1042ef108ce19cff8a807864}{get\+File\+Content\+By\+Name}} (string file\+Name)
+\item 
+string \mbox{\hyperlink{classControllerNode_aa56c39f0ff720e92eb3b5e6f9891dfe2}{fill\+File}} (string current\+Bin)
+\item 
+void \mbox{\hyperlink{classControllerNode_ad0c08a3d7593023b0d1a3c4cacd0fe8a}{get\+Info\+From\+Server}} ()
+\item 
+void \mbox{\hyperlink{classControllerNode_a9dd149f8afcecdb908b678ef8c0190f8}{send\+Current\+Files}} ()
+\item 
+void \mbox{\hyperlink{classControllerNode_a30d0cc847fc2e84da84ce18d9c1f3400}{check\+Port}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Data Fields}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classServer}{Server}} $\ast$ \mbox{\hyperlink{classControllerNode_a58511355c8f9a2c6aa5d3ff89d041841}{server}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Constructor de la clase del controlador de nodos de disco del RAID 
+
+Definition at line 28 of file Controller\+Node.\+h.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classControllerNode_ae6df5e7f4154cc81455c136c580c98d1}\label{classControllerNode_ae6df5e7f4154cc81455c136c580c98d1}} 
+\index{ControllerNode@{ControllerNode}!ControllerNode@{ControllerNode}}
+\index{ControllerNode@{ControllerNode}!ControllerNode@{ControllerNode}}
+\doxysubsubsection{\texorpdfstring{ControllerNode()}{ControllerNode()}}
+{\footnotesize\ttfamily Controller\+Node\+::\+Controller\+Node (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Constructor de la clase 
+
+Definition at line 7 of file Controller\+Node.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classControllerNode_ae6df5e7f4154cc81455c136c580c98d1_cgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classControllerNode_a29576b92385fe5dac869e4c46b96924b}\label{classControllerNode_a29576b92385fe5dac869e4c46b96924b}} 
+\index{ControllerNode@{ControllerNode}!checkDisks@{checkDisks}}
+\index{checkDisks@{checkDisks}!ControllerNode@{ControllerNode}}
+\doxysubsubsection{\texorpdfstring{checkDisks()}{checkDisks()}}
+{\footnotesize\ttfamily bool Controller\+Node\+::check\+Disks (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Verifica si algun disco tiene una perdida de informacion \begin{DoxyReturn}{Returns}
+valor de verdad que indica si los 4 discos se presentan de forma integra 
+\end{DoxyReturn}
+
+
+Definition at line 24 of file Controller\+Node.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classControllerNode_a29576b92385fe5dac869e4c46b96924b_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classControllerNode_a29576b92385fe5dac869e4c46b96924b_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classControllerNode_a30d0cc847fc2e84da84ce18d9c1f3400}\label{classControllerNode_a30d0cc847fc2e84da84ce18d9c1f3400}} 
+\index{ControllerNode@{ControllerNode}!checkPort@{checkPort}}
+\index{checkPort@{checkPort}!ControllerNode@{ControllerNode}}
+\doxysubsubsection{\texorpdfstring{checkPort()}{checkPort()}}
+{\footnotesize\ttfamily void Controller\+Node\+::check\+Port (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 257 of file Controller\+Node.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classControllerNode_a30d0cc847fc2e84da84ce18d9c1f3400_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classControllerNode_a98456de3dc0fa892c5e9d6d6f8938477}\label{classControllerNode_a98456de3dc0fa892c5e9d6d6f8938477}} 
+\index{ControllerNode@{ControllerNode}!createFile@{createFile}}
+\index{createFile@{createFile}!ControllerNode@{ControllerNode}}
+\doxysubsubsection{\texorpdfstring{createFile()}{createFile()}}
+{\footnotesize\ttfamily void Controller\+Node\+::create\+File (\begin{DoxyParamCaption}\item[{string}]{file\+Name,  }\item[{string}]{text }\end{DoxyParamCaption})}
+
+Crea un archivo en el RAID 
+\begin{DoxyParams}{Parameters}
+{\em file\+Name} & nombre del archivo \\
+\hline
+{\em text} & texto que contiene \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 141 of file Controller\+Node.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classControllerNode_a98456de3dc0fa892c5e9d6d6f8938477_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classControllerNode_a98456de3dc0fa892c5e9d6d6f8938477_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classControllerNode_aa56c39f0ff720e92eb3b5e6f9891dfe2}\label{classControllerNode_aa56c39f0ff720e92eb3b5e6f9891dfe2}} 
+\index{ControllerNode@{ControllerNode}!fillFile@{fillFile}}
+\index{fillFile@{fillFile}!ControllerNode@{ControllerNode}}
+\doxysubsubsection{\texorpdfstring{fillFile()}{fillFile()}}
+{\footnotesize\ttfamily string Controller\+Node\+::fill\+File (\begin{DoxyParamCaption}\item[{string}]{current\+Bin }\end{DoxyParamCaption})}
+
+Funcion auxiliar para rellenar con ceros un binario menor a 80 bits 
+\begin{DoxyParams}{Parameters}
+{\em current\+Bin} & binario actual \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+binario completo segun lo solicitado 
+\end{DoxyReturn}
+
+
+Definition at line 75 of file Controller\+Node.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classControllerNode_aa56c39f0ff720e92eb3b5e6f9891dfe2_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classControllerNode_a21564ebe1042ef108ce19cff8a807864}\label{classControllerNode_a21564ebe1042ef108ce19cff8a807864}} 
+\index{ControllerNode@{ControllerNode}!getFileContentByName@{getFileContentByName}}
+\index{getFileContentByName@{getFileContentByName}!ControllerNode@{ControllerNode}}
+\doxysubsubsection{\texorpdfstring{getFileContentByName()}{getFileContentByName()}}
+{\footnotesize\ttfamily string Controller\+Node\+::get\+File\+Content\+By\+Name (\begin{DoxyParamCaption}\item[{string}]{file\+Name }\end{DoxyParamCaption})}
+
+Obtiene el contenido de un archivo segun su nombre 
+\begin{DoxyParams}{Parameters}
+{\em file\+Name} & nombre del archivo \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+texto que contiene 
+\end{DoxyReturn}
+
+
+Definition at line 84 of file Controller\+Node.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classControllerNode_a21564ebe1042ef108ce19cff8a807864_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classControllerNode_a21564ebe1042ef108ce19cff8a807864_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classControllerNode_ad0c08a3d7593023b0d1a3c4cacd0fe8a}\label{classControllerNode_ad0c08a3d7593023b0d1a3c4cacd0fe8a}} 
+\index{ControllerNode@{ControllerNode}!getInfoFromServer@{getInfoFromServer}}
+\index{getInfoFromServer@{getInfoFromServer}!ControllerNode@{ControllerNode}}
+\doxysubsubsection{\texorpdfstring{getInfoFromServer()}{getInfoFromServer()}}
+{\footnotesize\ttfamily void Controller\+Node\+::get\+Info\+From\+Server (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 100 of file Controller\+Node.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classControllerNode_ad0c08a3d7593023b0d1a3c4cacd0fe8a_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classControllerNode_ad0c08a3d7593023b0d1a3c4cacd0fe8a_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classControllerNode_a1637ad34ef1fa2d6fe70ee8cedec0b30}\label{classControllerNode_a1637ad34ef1fa2d6fe70ee8cedec0b30}} 
+\index{ControllerNode@{ControllerNode}!modifyFIle@{modifyFIle}}
+\index{modifyFIle@{modifyFIle}!ControllerNode@{ControllerNode}}
+\doxysubsubsection{\texorpdfstring{modifyFIle()}{modifyFIle()}}
+{\footnotesize\ttfamily void Controller\+Node\+::modify\+FIle (\begin{DoxyParamCaption}\item[{string}]{file\+Name,  }\item[{string}]{updated\+Text }\end{DoxyParamCaption})}
+
+Modifica el contenido de un archivo 
+\begin{DoxyParams}{Parameters}
+{\em file\+Name} & Nombre del archivo \\
+\hline
+{\em updated\+Text} & string actualizado \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 189 of file Controller\+Node.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classControllerNode_a1637ad34ef1fa2d6fe70ee8cedec0b30_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classControllerNode_a2fb779af7b5d066f8160782367bb51bb}\label{classControllerNode_a2fb779af7b5d066f8160782367bb51bb}} 
+\index{ControllerNode@{ControllerNode}!recoverDisk@{recoverDisk}}
+\index{recoverDisk@{recoverDisk}!ControllerNode@{ControllerNode}}
+\doxysubsubsection{\texorpdfstring{recoverDisk()}{recoverDisk()}}
+{\footnotesize\ttfamily void Controller\+Node\+::recover\+Disk (\begin{DoxyParamCaption}\item[{int}]{disk\+Num }\end{DoxyParamCaption})}
+
+Recupera la informacion perdida de un disco 
+\begin{DoxyParams}{Parameters}
+{\em disk\+Num} & Disco perdido \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 48 of file Controller\+Node.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classControllerNode_a2fb779af7b5d066f8160782367bb51bb_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classControllerNode_a2fb779af7b5d066f8160782367bb51bb_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classControllerNode_a9dd149f8afcecdb908b678ef8c0190f8}\label{classControllerNode_a9dd149f8afcecdb908b678ef8c0190f8}} 
+\index{ControllerNode@{ControllerNode}!sendCurrentFiles@{sendCurrentFiles}}
+\index{sendCurrentFiles@{sendCurrentFiles}!ControllerNode@{ControllerNode}}
+\doxysubsubsection{\texorpdfstring{sendCurrentFiles()}{sendCurrentFiles()}}
+{\footnotesize\ttfamily void Controller\+Node\+::send\+Current\+Files (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 117 of file Controller\+Node.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classControllerNode_a9dd149f8afcecdb908b678ef8c0190f8_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classControllerNode_a9dd149f8afcecdb908b678ef8c0190f8_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Field Documentation}
+\mbox{\Hypertarget{classControllerNode_a58511355c8f9a2c6aa5d3ff89d041841}\label{classControllerNode_a58511355c8f9a2c6aa5d3ff89d041841}} 
+\index{ControllerNode@{ControllerNode}!server@{server}}
+\index{server@{server}!ControllerNode@{ControllerNode}}
+\doxysubsubsection{\texorpdfstring{server}{server}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classServer}{Server}}$\ast$ Controller\+Node\+::server}
+
+
+
+Definition at line 48 of file Controller\+Node.\+h.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+RAID/\mbox{\hyperlink{ControllerNode_8h}{Controller\+Node.\+h}}\item 
+RAID/\mbox{\hyperlink{ControllerNode_8cpp}{Controller\+Node.\+cpp}}\end{DoxyCompactItemize}

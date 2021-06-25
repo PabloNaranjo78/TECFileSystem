@@ -1,0 +1,12 @@
+<map id="nlohmann::detail::parser::parse" name="nlohmann::detail::parser::parse">
+<area shape="rect" id="node1" title="public parser interface" alt="" coords="5,201,187,243"/>
+<area shape="rect" id="node2" href="$classnlohmann_1_1detail_1_1parse__error.html#a137ea4d27de45d8a844fd13451d40f3d" title="create a parse error exception" alt="" coords="256,5,432,47"/>
+<area shape="rect" id="node5" href="$classnlohmann_1_1detail_1_1lexer.html#a948c80b8bd8a3095b544e4655e1ca37e" title="return position of last read token" alt="" coords="258,71,430,112"/>
+<area shape="rect" id="node6" href="$classnlohmann_1_1detail_1_1lexer.html#ae000b7571480e528dee4b281f63d5b15" title=" " alt="" coords="258,136,430,177"/>
+<area shape="rect" id="node7" href="$classnlohmann_1_1detail_1_1json__sax__dom__parser.html#ad1b9f3681fadbbb2e0127f5c8a99c662" title=" " alt="" coords="239,201,449,243"/>
+<area shape="rect" id="node8" href="$classnlohmann_1_1detail_1_1json__sax__dom__callback__parser.html#a167fd9bf385d3d08bcbbba8a927c0eff" title=" " alt="" coords="245,267,443,323"/>
+<area shape="rect" id="node9" href="$classnlohmann_1_1detail_1_1json__sax__dom__parser.html#a7bc7d26e6a6f30185310de42cb2e820d" title=" " alt="" coords="235,348,453,389"/>
+<area shape="rect" id="node10" href="$classnlohmann_1_1detail_1_1json__sax__dom__callback__parser.html#afb54d6937ee5d5a40e1db94422998aec" title=" " alt="" coords="245,414,443,470"/>
+<area shape="rect" id="node3" href="$classnlohmann_1_1detail_1_1exception.html#abf41a7e9178356314082284e6cfea278" title=" " alt="" coords="501,5,705,47"/>
+<area shape="rect" id="node4" href="$namespacenlohmann.html#a6ce645a0b8717757e096a5b5773b7a16" title="user&#45;defined to_string function for JSON values" alt="" coords="753,13,905,39"/>
+</map>

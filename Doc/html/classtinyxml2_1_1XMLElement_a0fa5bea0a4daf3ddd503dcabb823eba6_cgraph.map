@@ -1,0 +1,12 @@
+<map id="tinyxml2::XMLElement::GetText" name="tinyxml2::XMLElement::GetText">
+<area shape="rect" id="node1" title=" " alt="" coords="5,136,176,177"/>
+<area shape="rect" id="node2" href="$classtinyxml2_1_1XMLNode.html#ae7dc225e1018cdd685f7563593a1fe08" title="Get the first child node, or null if none exists." alt="" coords="224,5,383,47"/>
+<area shape="rect" id="node3" href="$classtinyxml2_1_1XMLNode.html#a79db9ef0fe014d27790f2218b87bcbb5" title="Get the next (right) sibling node of this node." alt="" coords="224,71,383,112"/>
+<area shape="rect" id="node4" href="$classtinyxml2_1_1XMLNode.html#aff47671055aa99840a1c1ebd661e63e3" title="Safely cast to a Comment, or null." alt="" coords="224,136,383,177"/>
+<area shape="rect" id="node5" href="$classtinyxml2_1_1XMLNode.html#a41c55dab9162d1eb62db2008430e376b" title="Safely cast to Text, or null." alt="" coords="224,201,383,243"/>
+<area shape="rect" id="node6" href="$classtinyxml2_1_1XMLNode.html#a0485e51c670e741884cfd8362274d680" title=" " alt="" coords="224,267,383,308"/>
+<area shape="rect" id="node7" href="$classtinyxml2_1_1StrPair.html#ad87e3d11330f5e689ba1e7e54c023b57" title=" " alt="" coords="441,233,579,275"/>
+<area shape="rect" id="node10" href="$classtinyxml2_1_1XMLNode.html#a836e2966ed736fc3c94f70e12a2a3357" title="Safely cast to a Document, or null." alt="" coords="431,299,589,340"/>
+<area shape="rect" id="node8" href="$classtinyxml2_1_1XMLUtil.html#a5a96e5144a8d693dc4bcd783d9964648" title=" " alt="" coords="637,233,784,275"/>
+<area shape="rect" id="node9" href="$classtinyxml2_1_1XMLUtil.html#a31c00d5c5dfb38382de1dfcaf4be3595" title=" " alt="" coords="832,233,995,275"/>
+</map>
