@@ -10,6 +10,7 @@ ControllerNode::ControllerNode() {
     this->setSocketInfo();
     this->server = new Server();
     this->server->port = stoi(this->port);
+    this->getInfoFromServer();
 }
 
 void ControllerNode::initDisks() {
@@ -95,14 +96,19 @@ string ControllerNode::getFileContentByName(string fileName) {
 }
 
 void ControllerNode::getInfoFromServer() {
-    string fileName, info;
+
     string response = this->server->sendData("files");
     json parser;
     parser = json::parse(response);
-    fileName = parser["filename"];
-    info = parser["text"];
 
-    this->createFile(fileName, info);
+    int counterJson = parser["counter"];
+    string fileName[counterJson], info[counterJson];
+    for (int i=1; i<counterJson; i++){
+        fileName[i] = parser["filename"];
+        info[i] = parser["text"];
+        this->createFile(fileName[i], info[i]);
+    }
+
 }
 
 void ControllerNode::sendCurrentFiles() {
@@ -115,6 +121,7 @@ void ControllerNode::sendCurrentFiles() {
         namesArray[i] = this->disks[0]->files[i]->filename;
         filesArray[i] = this->getFileContentByName(this->disks[0]->files[i]->filename);
     }
+    stacker["counter"] = fileNum;
     for (int i=0; i<fileNum; i++){
         stacker[namesArray[i]] = filesArray[i];
     }
