@@ -12,10 +12,10 @@
 class HCBinaryTree {
 public:
     HCBinaryTree();
-    void createTree(CharacterList inList);
     void printTree();
     string encodeString(string stringList, string key);
     string decodeString(string code, string key);
+    string createTree(CharacterList inList);
 private:
     int countCharacters(string stringList);
     string printTreeAux(CharacterListNode* node);

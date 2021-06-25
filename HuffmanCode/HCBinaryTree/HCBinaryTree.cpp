@@ -10,7 +10,7 @@
 HCBinaryTree::HCBinaryTree() {
 }
 
-void HCBinaryTree::createTree(CharacterList inList) {
+string HCBinaryTree::createTree(CharacterList inList) {
     treeListNode = inList;
     while(treeListNode.getNode()->nextNode!= nullptr) {
         CharacterListNode *newNode = new CharacterListNode();
@@ -20,12 +20,10 @@ void HCBinaryTree::createTree(CharacterList inList) {
         treeListNode.deleteFirstNode();
         treeListNode.deleteFirstNode();
         treeListNode.addNode(newNode);
-
-
-
     }
     //treeListNode.printList();
     cout<<treeListNode.getNode()->getCharacter()<<endl;
+    return treeListNode.getNode()->getCharacter();
 
 //    treeListNode.printList();
 

@@ -69,14 +69,6 @@ void CharacterList::sortList() {
     if (!checkSort()){
         while((*pointerNode)->nextNode!= nullptr){
             if ((*pointerNode)->getCounter()>(*pointerNode)->nextNode->getCounter()){
-
-//                CharacterListNode* tempL = (*pointerNode)->leftSon;
-//                CharacterListNode* tempR = (*pointerNode)->rightSon;
-
-//                cout<<(*pointerNode)->getCounter()<<" padre"<<endl;
-//                if ((*pointerNode)->leftSon!= nullptr)cout<<(*pointerNode)->leftSon->getCounter()<<"->->"<<endl;
-//                if ((*pointerNode)->rightSon!= nullptr)cout<<(*pointerNode)->rightSon->getCounter()<<"-<->"<<endl;
-
                 string tempData;
                 int tempCounter;
                 tempData = (*pointerNode)->getCharacter();
@@ -84,11 +76,6 @@ void CharacterList::sortList() {
 
                 (*pointerNode)->setCounter((*pointerNode)->nextNode->getCounter());
                 (*pointerNode)->setData((*pointerNode)->nextNode->getCharacter());
-//                (*pointerNode)->leftSon = (*pointerNode)->nextNode->leftSon;
-//                (*pointerNode)->rightSon = (*pointerNode)->nextNode->rightSon;
-
-//                (*pointerNode)->nextNode->leftSon = tempL;
-//                (*pointerNode)->nextNode->rightSon = tempR;
                 (*pointerNode)->nextNode->setCounter(tempCounter);
                 (*pointerNode)->nextNode->setData(tempData);
 
