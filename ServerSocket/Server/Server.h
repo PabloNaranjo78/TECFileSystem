@@ -24,10 +24,10 @@ public:
     Server();
     void startServer();
     string sendData(string inData);
-
+    int port = 5000;
+    string ip = "127.0.0.1";
 private:
     int server = socket(AF_INET,SOCK_STREAM,0);
-    int port = 5000;
     int queue = 20;
     int conection;
     string outData;

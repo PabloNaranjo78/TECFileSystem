@@ -23,9 +23,10 @@ class Client {
 public:
     Client();
     string sendData(string outData);
-private:
     int port = 5000;
     string ip = "127.0.0.1";
+
+private:
     struct sockaddr_in server_addr;
     int client = socket(AF_INET,SOCK_STREAM,0);
     char inData[10000];
