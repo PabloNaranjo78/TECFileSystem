@@ -104,8 +104,8 @@ void ControllerNode::getInfoFromServer() {
     int counterJson = parser["counter"];
     string fileName[counterJson], info[counterJson];
     for (int i=1; i<counterJson; i++){
-        fileName[i] = parser["filename"];
-        info[i] = parser["text"];
+        fileName[i] = parser["filename"+to_string(i)];
+        info[i] = parser["text"+to_string(i)];
         this->createFile(fileName[i], info[i]);
     }
 
@@ -123,7 +123,8 @@ void ControllerNode::sendCurrentFiles() {
     }
     stacker["counter"] = fileNum;
     for (int i=0; i<fileNum; i++){
-        stacker[namesArray[i]] = filesArray[i];
+        stacker["filename"+to_string(i+1)] = namesArray[i];
+        stacker["text"+to_string(i+1)] = filesArray[i];
     }
     string to_send = stacker.dump();
     this->server->sendData(to_send);
