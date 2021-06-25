@@ -54,3 +54,13 @@ string ceRobot::readFile(string filePath) {
     }
     return aux;
 }
+
+const vector<string> &ceRobot::getElements() const {
+    return elements;
+}
+
+
+const vector<string> &ceRobot::getContentElements() const {
+    return contentElements;
+}
+

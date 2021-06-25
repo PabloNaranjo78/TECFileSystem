@@ -17,13 +17,43 @@ using namespace std;
 class ceRobot {
 
     private:
-        vector<string> elements;
         vector<string> contentElements;
         string pathBooks = "../Libros";
+        vector<string> elements;
 
-public:
+    public:
+
+        /**
+         * @brief Retorna la lista con el nombre de los elementos
+         * @return elements
+         */
+        const vector<string> &getElements() const;
+
+        /**
+         * @brief Retorna la lista con el contenido de los libros
+         * @return contentElements
+         */
+        const vector<string> &getContentElements() const;
+
+
+        /**
+         * @brief Constructor del ceRobot recibiendo la ruta de los libros
+         * @param path
+         */
         ceRobot(string path);
+
+        /**
+         * @brief Retorna una lista con los nombres de los elementos
+         * @param path
+         * @return elements
+         */
         vector<string> getFiles(string path);
+
+        /**
+         * @brief Retorna el texto contenido en el archivo de la ruta especificada
+         * @param filePath
+         * @return aux
+         */
         string readFile(string filePath);
 };
 
