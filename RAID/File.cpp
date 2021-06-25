@@ -10,7 +10,7 @@ File::File(string path, string filename, string currentText) {
     this->filename = filename;
     this->currentText = currentText;
     // Create and open a text file
-    ofstream MyFile(this->path+this->filename+".txt");
+    ofstream MyFile(this->path+this->filename);
 
     // Write to the file
     MyFile << this->currentText;
@@ -22,7 +22,7 @@ File::File(string path, string filename, string currentText) {
 void File::updateText(string newText) {
     this->currentText = newText;
     // Create and open a text file
-    ofstream MyFile(this->path+this->filename+".txt");
+    ofstream MyFile(this->path+this->filename);
 
     // Write to the file
     MyFile << this->currentText;
@@ -37,7 +37,7 @@ string File::getText() {
     string out = "";
 
 // Read from the text file
-    ifstream readFile(this->path+".txt");
+    ifstream readFile(this->path);
 
 // Use a while loop together with the getline() function to read the file line by line
     while (getline (readFile, readText)) {

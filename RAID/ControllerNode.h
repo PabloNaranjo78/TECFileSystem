@@ -14,6 +14,8 @@
 #include <errno.h>
 #include "TinyXml/tinyxml2.h"
 #include "../ServerSocket/Server/Server.h"
+#include <thread>
+#include <unistd.h>
 
 using json = nlohmann::json;
 using namespace tinyxml2;
@@ -29,6 +31,7 @@ private:
     int ipInt;
     string initialPath;
     int counter;
+    bool flag;
     DiskNode ** disks =(DiskNode**) malloc(4*sizeof(DiskNode)); //Almacena 4 discos de 100 bytes cada uno para una capacidad total de 400 bytes (considerando paridad y metadata)
     /**
      * Meotodo para iniciar las variables necesarias para los discos
@@ -39,9 +42,7 @@ private:
      */
     void setSocketInfo();
 
-    void getInfoFromServer();
 
-    void sendCurrentFiles();
 
 public:
     Server * server;
@@ -83,6 +84,12 @@ public:
      * @return binario completo segun lo solicitado
      */
     string fillFile(string currentBin);
+
+    void getInfoFromServer();
+
+    void sendCurrentFiles();
+
+    void checkPort();
 };
 
 

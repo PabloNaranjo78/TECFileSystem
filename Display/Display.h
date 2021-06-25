@@ -11,6 +11,9 @@
 #include "../ServerSocket/Json/json.hpp"
 #include "../ceRobot/ceRobot.h"
 #include "../ServerSocket/Client/Client.h"
+#include "../RAID/ControllerNode.h"
+#include <unistd.h>
+
 using namespace sf;
 using namespace std;
 using json = nlohmann::json;
@@ -23,9 +26,10 @@ class Display {
         vector<string> elements;
         string pathBooks = "../Libros";
         string pathDisks = "../DiskArray";
-        bool find = false;
+        bool find;
         RenderWindow* my_window;
-        Client client;
+        Client * client = new Client();
+        //ControllerNode * controller;
 
 public:
         /**

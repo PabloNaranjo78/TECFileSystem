@@ -38,7 +38,7 @@ void Server::startServer() {
 
 string Server::sendData(string sendDataOut) {
     cout << "Esperando conexión..." << endl;
-    char inData[1024];
+    char inData[10000];
     memset(inData,'\0', strlen(inData));
     cout << inData << "---------" << endl;
     recv(conection, inData, sizeof(inData), 0);

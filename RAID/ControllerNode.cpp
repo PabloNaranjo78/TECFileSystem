@@ -9,8 +9,10 @@ ControllerNode::ControllerNode() {
     this->initDisks();
     this->setSocketInfo();
     this->server = new Server();
-    this->server->port = stoi(this->port);
+    //this->server->port = stoi(this->port);
+    this->flag = true;
     this->getInfoFromServer();
+
 }
 
 void ControllerNode::initDisks() {
@@ -96,16 +98,17 @@ string ControllerNode::getFileContentByName(string fileName) {
 }
 
 void ControllerNode::getInfoFromServer() {
-
-    string response = this->server->sendData("files");
+    json sender;
+    sender["code"] = "1";
+    string response = this->server->sendData("code1");
     json parser;
     parser = json::parse(response);
 
     int counterJson = parser["counter"];
     string fileName[counterJson], info[counterJson];
-    for (int i=1; i<counterJson; i++){
-        fileName[i] = parser["filename"+to_string(i)];
-        info[i] = parser["text"+to_string(i)];
+    for (int i=0; i<counterJson; i++){
+        fileName[i] = parser["filename"+to_string(i+1)];
+        info[i] = parser["text"+to_string(i+1)];
         this->createFile(fileName[i], info[i]);
     }
 
@@ -123,11 +126,16 @@ void ControllerNode::sendCurrentFiles() {
     }
     stacker["counter"] = fileNum;
     for (int i=0; i<fileNum; i++){
-        stacker["filename"+to_string(i+1)] = namesArray[i];
-        stacker["text"+to_string(i+1)] = filesArray[i];
+        stacker["filename"+to_string(i+1)] = (string)namesArray[i];
+        stacker["text"+to_string(i+1)] = (string)filesArray[i];
     }
     string to_send = stacker.dump();
+    cout << "Para enviar: " << to_send << endl;
     this->server->sendData(to_send);
+    this->flag = false;
+
+
+
 }
 
 void ControllerNode::createFile(string fileName, string text) {
@@ -244,4 +252,13 @@ void ControllerNode::setSocketInfo() {
     cout << "Port: " << this->port << endl;
     cout << "-------------------------------------------" << endl;
 
+}
+
+void ControllerNode::checkPort() {
+
+
+    while (true){
+        this->sendCurrentFiles();
+
+    }
 }

@@ -13,10 +13,18 @@
 
 Display::Display() {
 
+    cout << "inicializando----------------" << endl;
     ceRobot robot = ceRobot(pathBooks);
-    sendCurrentFiles(&robot);
+    bool firstime = true;
+    if (firstime){
+        sendCurrentFiles(&robot);
+        firstime = false;
+    }
 
+
+    find = false;
     ceSearch search = ceSearch();
+
 
     my_window = new RenderWindow(VideoMode(1100, 900), "TEC File System", Style::Titlebar | Style::Close );
     this->my_window->setFramerateLimit(30);
@@ -28,6 +36,8 @@ Display::Display() {
     TextBox textBox = TextBox(250,250,620,50,20);
     Button button = Button(400,350,300,50,25,"Search",Color::Blue);
     Button buttonBack = Button(10,10,100,100,25,"Back",Color(150,150,150,0));
+
+    //bool iniciado = true;
 
     while (my_window->isOpen()) {
         my_window->clear();
@@ -69,6 +79,7 @@ Display::Display() {
 
                         if(buttonBack.getPosx()<pos_mouse.x && pos_mouse.x<buttonBack.getPosx()+buttonBack.getWidth()){
                             if(buttonBack.getPosy()<pos_mouse.y && pos_mouse.y<buttonBack.getPosy()+buttonBack.getHeight()) {
+                                //iniciado = true;
                                 find = false;
                             }
                         }
@@ -92,19 +103,26 @@ Display::Display() {
                             if(button.getPosy()<pos_mouse.y && pos_mouse.y<button.getPosy()+button.getHeight()) {
 //                                cout<<textBox.GetString()<<endl;
 
-                                string received = client.sendData("");
+                                cout << "entra" << endl;
+                                json sender;
+                                sender["code"] = "send";
+                                string received = client->sendData("code1");
+                                sleep(1);
+                                cout << "Recibido en el cliente" << received << endl;
+
                                 json parser = json::parse(received);
 
                                 int counterJson = parser["counter"];
 
-                                for (int i=1; i<counterJson; i++){
-                                    search.setElements(parser["filename"+to_string(i)], parser["text"+to_string(i)]);
+                                for (int i = 0; i < counterJson; i++) {
+                                    search.setElements(parser["filename" + to_string(i + 1)],
+                                                       parser["text" + to_string(i + 1)]);
+                                    cout << "Valores asociados: " << parser["filename" + to_string(i + 1)] << ", " << parser["text" + to_string(i + 1)] << endl;
                                 }
                                 search.doSearch(textBox.GetString());
                                 setImage(search.getElementsToShow().size());
 
                                 find = true;
-
 
                             }
                         }
@@ -207,6 +225,10 @@ void Display::sendCurrentFiles(ceRobot* robot) {
         stacker["filename"+to_string(i+1)] = namesArray[i];
         stacker["text"+to_string(i+1)] = filesArray[i];
     }
+    cout << "String a enviar" << endl;
     string to_send = stacker.dump();
-    client.sendData(to_send);
+    cout << to_send << endl;
+    client->sendData(to_send);
+
+
 }

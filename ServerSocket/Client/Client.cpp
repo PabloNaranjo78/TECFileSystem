@@ -36,7 +36,7 @@ string Client::sendData(string _outData) {
 
     string outDataFinal = outJson.dump();
 
-    strncpy(outData,outDataFinal.c_str(),1024);
+    strncpy(outData,outDataFinal.c_str(),10000);
     send(client,outData, strlen(outData),0);
 
     recv(client, inData, sizeof(inData), 0);
@@ -54,7 +54,7 @@ string Client::sendData(string _outData) {
 
     cout<<inDataResult<<endl;
 
-    return inData;
+    return inDataResult;
 }
 
 
