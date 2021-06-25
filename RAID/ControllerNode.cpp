@@ -7,7 +7,9 @@
 ControllerNode::ControllerNode() {
     this->initialPath = "../DiskArray/";
     this->initDisks();
-
+    this->setSocketInfo();
+    this->server = new Server();
+    this->server->port = stoi(this->port);
 }
 
 void ControllerNode::initDisks() {
@@ -77,7 +79,7 @@ string ControllerNode::fillFile(string currentBin) {
 
 
 string ControllerNode::getFileContentByName(string fileName) {
-
+    this->checkDisks();
     Converter * converter = new Converter();
     string content = "", bytes_to_read;
     int readBytes = 0;
@@ -92,7 +94,36 @@ string ControllerNode::getFileContentByName(string fileName) {
 
 }
 
+void ControllerNode::getInfoFromServer() {
+    string fileName, info;
+    string response = this->server->sendData("files");
+    json parser;
+    parser = json::parse(response);
+    fileName = parser["filename"];
+    info = parser["text"];
+
+    this->createFile(fileName, info);
+}
+
+void ControllerNode::sendCurrentFiles() {
+    this->checkDisks();
+    json stacker;
+    int fileNum = this->disks[0]->counter;
+    string filesArray[fileNum];
+    string namesArray[fileNum];
+    for (int i=0; i<fileNum; i++){
+        namesArray[i] = this->disks[0]->files[i]->filename;
+        filesArray[i] = this->getFileContentByName(this->disks[0]->files[i]->filename);
+    }
+    for (int i=0; i<fileNum; i++){
+        stacker[namesArray[i]] = filesArray[i];
+    }
+    string to_send = stacker.dump();
+    this->server->sendData(to_send);
+}
+
 void ControllerNode::createFile(string fileName, string text) {
+    this->checkDisks();
     int originalLength = text.length();
     XOR * xor_tool = new XOR();
     Converter * converter = new Converter();
@@ -198,6 +229,7 @@ void ControllerNode::setSocketInfo() {
     XMLElement *port = root->FirstChildElement("port");
     this->ip = ip->GetText();
     this->port = port->GetText();
+    this->ip = stoi(this->ip);
 
     cout << "-------------------------------------------" << endl;
     cout << "IP: " << this->ip << endl;

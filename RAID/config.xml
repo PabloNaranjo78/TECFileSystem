@@ -5,6 +5,6 @@
 <Parameters>
 
     <ip>127.0.0.1</ip>
-    <port>12001</port>
+    <port>50000</port>
 
 </Parameters>

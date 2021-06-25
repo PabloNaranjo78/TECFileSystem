@@ -18,13 +18,16 @@
 #include <sys/shm.h>
 #include <thread>
 #include <iostream>
+#include "../Json/json.hpp"
+#include "../../HuffmanCode/HCBinaryTree/HCBinaryTree.h"
+
 using namespace std;
 class Server {
 public:
     Server();
     void startServer();
     string sendData(string inData);
-    int port = 5000;
+    int port = 0;
     string ip = "127.0.0.1";
 private:
     int server = socket(AF_INET,SOCK_STREAM,0);

@@ -13,7 +13,9 @@
 #include <dirent.h>
 #include <errno.h>
 #include "TinyXml/tinyxml2.h"
+#include "../ServerSocket/Server/Server.h"
 
+using json = nlohmann::json;
 using namespace tinyxml2;
 using namespace std;
 
@@ -24,6 +26,7 @@ using namespace std;
 class ControllerNode {
 private:
     string ip, port;
+    int ipInt;
     string initialPath;
     int counter;
     DiskNode ** disks =(DiskNode**) malloc(4*sizeof(DiskNode)); //Almacena 4 discos de 100 bytes cada uno para una capacidad total de 400 bytes (considerando paridad y metadata)
@@ -35,7 +38,13 @@ private:
      * Setea los parametros relacionados a sockets leyendo desde XML
      */
     void setSocketInfo();
+
+    void getInfoFromServer();
+
+    void sendCurrentFiles();
+
 public:
+    Server * server;
     /**
      * Constructor de la clase
      */
