@@ -12,7 +12,7 @@ using namespace sf;
 using namespace std;
 int main() {
 
-    //Display display;
+    Display display;
 //    Converter * converter = new Converter();
 //    XOR * axor = new XOR();
 //    string result1 = converter->convertToBin("hola");
@@ -32,7 +32,7 @@ int main() {
 
     //DiskNode * disk = new DiskNode("../DiskArray/", "DiscoPrueba");
 
-    ControllerNode * controller = new ControllerNode();
+/*    ControllerNode * controller = new ControllerNode();
     controller->createFile("S", "hola como estas");
     string contentFile = controller->getFileContentByName("S");
     cout << "Contenido del archivo: " << contentFile << endl;
@@ -48,7 +48,7 @@ int main() {
 
     controller->modifyFIle("D", "Bueno, ya me fui");
     contentFile = controller->getFileContentByName("D");
-    cout << "Contenido del segundo archivo modificado: " << contentFile << endl;
+    cout << "Contenido del segundo archivo modificado: " << contentFile << endl;*/
 
   /*
     CharacterList list;

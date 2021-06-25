@@ -32,7 +32,7 @@ class Button {
 
         /**
          * @brief Consiste en el constructor del boton, recibe los datos para su posicion, ancho y alto, ajustes de letra, texto
-         * del boton y el color del area del fondo de este.
+         * del botón y el color del area del fondo de este.
          * @param Posx
          * @param Posy
          * @param Width
@@ -50,37 +50,10 @@ class Button {
         void Build();
 
         /**
-        * @brief Metodo que se encarga de revisar si se da click en el area del boton, recibe la posicion "x" y "y" donde sucedio el click.
-        * @param x
-        * @param y
-        * @return
-        */
-        bool Clicked(int, int);
-
-        /**
-        * @brief Revisa si la posicion del mouse es encima del boton, para resaltar el color del borde.
-        * @param x
-        * @param y
-        */
-        void MouseOver(int, int);
-
-        /**
         * Dibuja tanto el area como el texto del boton en la interfaz, recibe el puntero de la ventana de GUI.
         * @param win
         */
         void Draw(RenderWindow*);
-
-        /**
-        * Retorna true o false dependiendo del caso para verificar si el boton se encuentra desactivado.
-        * @return
-        */
-        bool isEnabled();
-
-        /**
-        * Activa o desactiva el boton segun el valor booleano que reciba del flag.
-        * @param flag
-        */
-        void SetEnabled(bool flag);
 
         /**
          * Devuelve el valor de Posx

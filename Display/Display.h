@@ -21,14 +21,42 @@ class Display {
         string pathBooks = "../Libros";
         string pathDisks = "../DiskArray";
         bool find = false;
-    public:
         RenderWindow* my_window;
+
+public:
+        /**
+         * @brief Constructor del display, muestra la aplicación gráfica
+         */
         Display();
+
+        /**
+         * @brief Obtiene la posición del mouse
+         */
         void checkMousePosition();
+
+        /**
+         * @brief Crea la cantidad de archivos especificada
+         * @param aux
+         */
         void setImage(int aux);
+
+        /**
+         * @brief Muestra los archivos que se encuentren en la ruta especificada
+         */
         void displayImages();
+
+        /**
+         * @brief Retorna una lista con los nombres de los elementos
+         * @param path
+         * @return elements
+         */
         vector<string> getFiles(string path);
-        string readFile(int i);
+
+        /**
+         * @brief Retorna el texto contenido en el archivo de la ruta especificada
+         * @param filePath
+         * @return aux
+         */
         string readFile(string filePath);
 };
 

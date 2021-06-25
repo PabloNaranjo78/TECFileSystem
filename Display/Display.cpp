@@ -154,24 +154,6 @@ vector<string> Display::getFiles(string path){
     return elements;
 }
 
-string Display::readFile(int i) {
-
-    string  filePath = pathBooks + "/" + elements[i];
-    string fileContent;
-    string aux = "";
-
-    ifstream txtFile;
-    txtFile.open(filePath, ios::in);
-
-    if (txtFile.fail()){cout<<"No se pudo abrir el archivo"<<endl;}
-
-    while (!txtFile.eof()){
-        getline(txtFile,fileContent);
-        aux+= "\n" + fileContent;
-    }
-    return aux;
-}
-
 string Display::readFile(string filePath) {
 
     string fileContent;

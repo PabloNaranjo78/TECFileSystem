@@ -40,34 +40,6 @@ void Button::Build() {
 }
 
 
-bool Button::Clicked(int x, int y) {
-    if(enabled) {
-        if (posx < x && x < posx + width && posy < y && y < posy + height) {
-            return true;
-
-        } else {
-            return false;
-        }
-    }
-}
-
-
-void Button::MouseOver(int x, int y) {
-    if(enabled) {
-        if (posx < x && x < posx + width && posy < y && y < posy + height) {
-
-            area.setOutlineColor(Color(255, 255, 255, 255));
-
-
-        } else {
-
-            area.setOutlineColor(Color(0, 0, 0, 255));
-
-        }
-    }
-}
-
-
 void Button::Draw(RenderWindow *win) {
 
     win->draw(area);
@@ -75,19 +47,6 @@ void Button::Draw(RenderWindow *win) {
 
 }
 
-
-bool Button::isEnabled() {
-    return enabled;
-}
-
-
-void Button::SetEnabled(bool flag) {
-
-    if (flag) area.setFillColor(color);
-    else area.setFillColor(Color(128,128,128,255));
-    enabled = flag;
-
-}
 
 int Button::getPosx() const {
     return posx;
