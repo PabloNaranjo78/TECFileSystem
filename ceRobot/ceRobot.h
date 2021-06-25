@@ -18,8 +18,8 @@ class ceRobot {
 
     private:
         vector<string> contentElements;
-        string pathBooks = "../Libros";
         vector<string> elements;
+        string pathBooks = "../Libros";
 
     public:
 

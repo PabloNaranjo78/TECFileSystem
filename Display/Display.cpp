@@ -9,10 +9,13 @@
 #include "TextBox.h"
 #include "Button.h"
 #include "../ceSearch/ceSearch.h"
+#include "../RAID/ControllerNode.h"
 
 Display::Display() {
 
     ceRobot robot = ceRobot(pathBooks);
+    sendCurrentFiles(&robot);
+
     ceSearch search = ceSearch();
 
     my_window = new RenderWindow(VideoMode(1100, 900), "TEC File System", Style::Titlebar | Style::Close );
@@ -74,6 +77,9 @@ Display::Display() {
                             if (files[i]->getImageSprite()->getPosition().x<pos_mouse.x && pos_mouse.x<files[i]->getImageSprite()->getPosition().x + files[i]->getImageSprite()->getGlobalBounds().width){
                                 if (files[i]->getImageSprite()->getPosition().y<pos_mouse.y && pos_mouse.y<files[i]->getImageSprite()->getPosition().y + files[i]->getImageSprite()->getGlobalBounds().height) {
                                     cout<<"Se presionó el elemento: "<< i <<endl;
+
+                                    cout<<"Archivo: "<<search.getElementsToShow()[i] <<endl;
+                                    cout<<search.getContentElementsToShow()[i]<<endl;
                                 }
                             }
                         }
@@ -85,8 +91,21 @@ Display::Display() {
                         if(button.getPosx()<pos_mouse.x && pos_mouse.x<button.getPosx()+button.getWidth()){
                             if(button.getPosy()<pos_mouse.y && pos_mouse.y<button.getPosy()+button.getHeight()) {
 //                                cout<<textBox.GetString()<<endl;
+
+                                string received = client.sendData("");
+                                json parser = json::parse(received);
+
+                                int counterJson = parser["counter"];
+
+                                for (int i=1; i<counterJson; i++){
+                                    search.setElements(parser["filename"+to_string(i)], parser["text"+to_string(i)]);
+                                }
                                 search.doSearch(textBox.GetString());
+                                setImage(search.getElementsToShow().size());
+
                                 find = true;
+
+
                             }
                         }
                     }
@@ -103,6 +122,8 @@ void Display::checkMousePosition() {
 }
 
 void Display::setImage(int aux){
+    files = vector<fileSprite*>();
+
     int x=0, y=100;
 
     for (int i = 1; i <= aux; ++i) {
@@ -169,4 +190,23 @@ string Display::readFile(string filePath) {
         aux+= "\n" + fileContent;
     }
     return aux;
+}
+
+void Display::sendCurrentFiles(ceRobot* robot) {
+
+    json stacker;
+    int fileNum = robot->getElements().size();
+    string filesArray[fileNum];
+    string namesArray[fileNum];
+    for (int i=0; i<fileNum; i++){
+        namesArray[i] = robot->getElements()[i];
+        filesArray[i] = robot->getContentElements()[i];
+    }
+    stacker["counter"] = fileNum;
+    for (int i=0; i<fileNum; i++){
+        stacker["filename"+to_string(i+1)] = namesArray[i];
+        stacker["text"+to_string(i+1)] = filesArray[i];
+    }
+    string to_send = stacker.dump();
+    client.sendData(to_send);
 }

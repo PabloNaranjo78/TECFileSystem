@@ -8,9 +8,12 @@
 #include "SFML/Graphics.hpp"
 #include <dirent.h>
 #include "fileSprite.h"
-
+#include "../ServerSocket/Json/json.hpp"
+#include "../ceRobot/ceRobot.h"
+#include "../ServerSocket/Client/Client.h"
 using namespace sf;
 using namespace std;
+using json = nlohmann::json;
 
 class Display {
 
@@ -22,6 +25,7 @@ class Display {
         string pathDisks = "../DiskArray";
         bool find = false;
         RenderWindow* my_window;
+        Client client;
 
 public:
         /**
@@ -58,6 +62,8 @@ public:
          * @return aux
          */
         string readFile(string filePath);
+
+        void sendCurrentFiles(ceRobot* robot);
 };
 
 

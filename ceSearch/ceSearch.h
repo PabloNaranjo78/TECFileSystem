@@ -18,13 +18,24 @@ class ceSearch {
 
     private:
 
-
+        vector<string> contentElements;
+        vector<string> elements;
+        vector<string> elementsToShow;
+        vector<string> contentElementsToShow;
 
     public:
-        ceSearch();
-        void doSearch(string text);
+            ceSearch();
+            void doSearch(string text);
+            void setElements(string fileName, string fileContent);
 
-
+            const vector<string> &getContentElements() const;
+            void setContentElements(const vector<string> &contentElements);
+            const vector<string> &getElements() const;
+            void setElements1(const vector<string> &elements);
+            const vector<string> &getElementsToShow() const;
+            void setElementsToShow(const vector<string> &elementsToShow);
+            const vector<string> &getContentElementsToShow() const;
+            void setContentElementsToShow(const vector<string> &contentElementsToShow);
 };
 
 
